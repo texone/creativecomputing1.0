@@ -1,0 +1,23 @@
+#include "shader/util/simplex.fp"
+
+uniform float noiseScale = 1;
+uniform float3 noiseOffset = float3(0,0,0);
+uniform float4x4 modelViewProjectionMatrix: state.matrix.mvp;
+	
+void main(
+	in float4 iPosition	: POSITION,
+	in float4 iColor		: COLOR,
+	out float4 oPosition	: POSITION,
+	out float4 ocolor		: COLOR
+) { 
+
+	float3 noiseOffset2 = noiseOffset.yzx;
+	float myNoiseX = noise((iPosition).xyz * noiseScale + noiseOffset) + noise((iPosition).xyz * noiseScale + noiseOffset2);
+	float myNoiseY = noise((iPosition).xyz * noiseScale + noiseOffset+100) + noise((iPosition).xyz * noiseScale + noiseOffset2+100);
+	float myNoiseZ = noise((iPosition).xyz * noiseScale + noiseOffset+200) + noise((iPosition).xyz * noiseScale + noiseOffset2+200);
+	
+	iPosition += float4(myNoiseX,myNoiseY,myNoiseZ,0) * 30 * iColor.x;
+	// Transform position from object space to clip space
+  	oPosition = mul(modelViewProjectionMatrix, iPosition);
+	ocolor = iColor;//float4(1,myNoiseX * iColor.x,myNoiseY * iColor.x,0.3);
+}     

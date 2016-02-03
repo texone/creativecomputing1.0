@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="app" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="app">
+				<uielements>
+					<CCUIButton label="draw volume">
+						<preset value="true"/>
+					</CCUIButton>
+					<CCUIButton label="draw depthmap">
+						<preset value="false"/>
+					</CCUIButton>
+					<CCUISlider label="g strength">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="f strength">
+						<preset value="-146.66663"/>
+					</CCUISlider>
+					<CCUISlider label="emit amount">
+						<preset value="10000.0"/>
+					</CCUISlider>
+					<CCUISlider label="emit z1">
+						<preset value="-1066.6665"/>
+					</CCUISlider>
+					<CCUISlider label="emit z2">
+						<preset value="-2866.6665"/>
+					</CCUISlider>
+					<CCUISlider label="emit y1">
+						<preset value="733.333"/>
+					</CCUISlider>
+					<CCUISlider label="emit y2">
+						<preset value="-866.6665"/>
+					</CCUISlider>
+					<CCUISlider label="lifetime">
+						<preset value="7.0"/>
+					</CCUISlider>
+					<CCUISlider label="alpha">
+						<preset value="0.29333332"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="sdf">
+				<uielements>
+					<CCUISlider label="volume x">
+						<preset value="-1266.6667"/>
+					</CCUISlider>
+					<CCUISlider label="volume y">
+						<preset value="-933.33325"/>
+					</CCUISlider>
+					<CCUISlider label="volume z">
+						<preset value="-3133.3335"/>
+					</CCUISlider>
+					<CCUISlider label="volume width">
+						<preset value="2566.6665"/>
+					</CCUISlider>
+					<CCUISlider label="volume height">
+						<preset value="2166.6667"/>
+					</CCUISlider>
+					<CCUISlider label="volume depth">
+						<preset value="1700.0"/>
+					</CCUISlider>
+					<CCUIButton label="draw volume">
+						<preset value="true"/>
+					</CCUIButton>
+					<CCUISlider label="color scale">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="smoothing">
+						<preset value="0.8"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+</ui>

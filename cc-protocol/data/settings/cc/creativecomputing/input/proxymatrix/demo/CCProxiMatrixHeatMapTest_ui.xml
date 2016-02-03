@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="sensors" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="brombeere">
+				<uielements>
+					<CCUIDropDown label="matrix draw mode">
+						<preset value="MOMENT"/>
+					</CCUIDropDown>
+					<CCUIButton label="draw blobs">
+						<preset value="false"/>
+					</CCUIButton>
+					<CCUIButton label="draw cursors">
+						<preset value="false"/>
+					</CCUIButton>
+					<CCUIButton label="draw scale point">
+						<preset value="false"/>
+					</CCUIButton>
+					<CCUISlider label="image thresh">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="image amplify">
+						<preset value="1.84"/>
+					</CCUISlider>
+					<CCUISlider label="gain power">
+						<preset value="1.2666667"/>
+					</CCUISlider>
+					<CCUISlider label="component thresh">
+						<preset value="11"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="himbeere">
+				<uielements>
+					<CCUIDropDown label="matrix draw mode">
+						<preset value="MOMENT"/>
+					</CCUIDropDown>
+					<CCUIButton label="draw blobs">
+						<preset value="false"/>
+					</CCUIButton>
+					<CCUIButton label="draw cursors">
+						<preset value="false"/>
+					</CCUIButton>
+					<CCUIButton label="draw scale point">
+						<preset value="false"/>
+					</CCUIButton>
+					<CCUISlider label="image thresh">
+						<preset value="79.9"/>
+					</CCUISlider>
+					<CCUISlider label="image amplify">
+						<preset value="2.02"/>
+					</CCUISlider>
+					<CCUISlider label="gain power">
+						<preset value="2.1333334"/>
+					</CCUISlider>
+					<CCUISlider label="component thresh">
+						<preset value="8"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+	<CCControlPresetTab label="heatmap" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="heatmap">
+				<uielements>
+					<CCUISlider label="heightmap amplify">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="heightmap blur">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="heightmap reduction">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUIButton label="draw heightmap">
+						<preset value="true"/>
+					</CCUIButton>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+</ui>

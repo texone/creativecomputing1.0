@@ -1,0 +1,7 @@
+cc.creativecomputing.timeline/bin
+cc.creativecomputing.timeline/log
+.DS_Store
+/target/
+/.settings/
+/*.project
+/*.classpath

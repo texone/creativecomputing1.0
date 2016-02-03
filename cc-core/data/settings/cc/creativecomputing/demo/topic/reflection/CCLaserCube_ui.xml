@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="app" selectedpreset="0" numberofpresets="8">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="noise">
+				<uielements>
+					<CCUISlider label="scale">
+						<preset value="0.0019999996"/>
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="octaves">
+						<preset value="3.52"/>
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="gain">
+						<preset value="0.5"/>
+						<preset value="0.5"/>
+						<preset value="0.5"/>
+						<preset value="0.5"/>
+						<preset value="0.5"/>
+						<preset value="0.5"/>
+						<preset value="0.5"/>
+						<preset value="0.5"/>
+					</CCUISlider>
+					<CCUISlider label="lacunarity">
+						<preset value="2.0"/>
+						<preset value="2.0"/>
+						<preset value="2.0"/>
+						<preset value="2.0"/>
+						<preset value="2.0"/>
+						<preset value="2.0"/>
+						<preset value="2.0"/>
+						<preset value="2.0"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="app">
+				<uielements>
+					<CCUISlider label="box size">
+						<preset value="960.0"/>
+						<preset value="740.0"/>
+						<preset value="280.0"/>
+						<preset value="280.0"/>
+						<preset value="280.0"/>
+						<preset value="280.0"/>
+						<preset value="280.0"/>
+						<preset value="513.3333"/>
+					</CCUISlider>
+					<CCUISlider label="laser x0">
+						<preset value="0.0"/>
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+						<preset value="-0.106666684"/>
+					</CCUISlider>
+					<CCUISlider label="laser x1">
+						<preset value="-0.10266662"/>
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+						<preset value="0.06666672"/>
+					</CCUISlider>
+					<CCUISlider label="lasers x">
+						<preset value="20"/>
+						<preset value="1"/>
+						<preset value="1"/>
+						<preset value="1"/>
+						<preset value="1"/>
+						<preset value="1"/>
+						<preset value="1"/>
+						<preset value="1"/>
+					</CCUISlider>
+					<CCUISlider label="lasers y">
+						<preset value="20"/>
+						<preset value="1"/>
+						<preset value="1"/>
+						<preset value="1"/>
+						<preset value="1"/>
+						<preset value="1"/>
+						<preset value="1"/>
+						<preset value="1"/>
+					</CCUISlider>
+					<CCUISlider label="lasers space">
+						<preset value="50.0"/>
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="lasers speed">
+						<preset value="0.006666667"/>
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="laser y">
+						<preset value="0.592"/>
+						<preset value="0.6946666"/>
+						<preset value="0.6946666"/>
+						<preset value="1.0"/>
+						<preset value="0.22266662"/>
+						<preset value="0.22266662"/>
+						<preset value="0.22266662"/>
+						<preset value="0.6946666"/>
+					</CCUISlider>
+					<CCUISlider label="laser z">
+						<preset value="0.0"/>
+						<preset value="-0.053333342"/>
+						<preset value="-0.053333342"/>
+						<preset value="0.9466667"/>
+						<preset value="0.9466667"/>
+						<preset value="0.55733335"/>
+						<preset value="0.55733335"/>
+						<preset value="0.6533333"/>
+					</CCUISlider>
+					<CCUISlider label="laser pos z">
+						<preset value="-400.0"/>
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="reflections">
+						<preset value="1"/>
+						<preset value="1000"/>
+						<preset value="633"/>
+						<preset value="1000"/>
+						<preset value="1000"/>
+						<preset value="1000"/>
+						<preset value="1000"/>
+						<preset value="153"/>
+					</CCUISlider>
+					<CCUISlider label="plane alpha">
+						<preset value="0.0"/>
+						<preset value="0.0"/>
+						<preset value="0.0"/>
+						<preset value="0.0"/>
+						<preset value="0.0"/>
+						<preset value="0.0"/>
+						<preset value="0.0"/>
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="line alpha start">
+						<preset value="0.48666668"/>
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+						<preset value="0.58666664"/>
+						<preset value="0.0"/>
+						<preset value="0.0"/>
+						<preset value="0.48666668"/>
+					</CCUISlider>
+					<CCUISlider label="line alpha end">
+						<preset value="0.47333333"/>
+						<preset value="0.0"/>
+						<preset value="0.0"/>
+						<preset value="0.0"/>
+						<preset value="0.0"/>
+						<preset value="0.0"/>
+						<preset value="0.0"/>
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="noise amount">
+						<preset value="0.15333334"/>
+						<preset value="0.0"/>
+						<preset value="0.0"/>
+						<preset value="0.0"/>
+						<preset value="0.0"/>
+						<preset value="0.0"/>
+						<preset value="0.0"/>
+						<preset value="0.0"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+			<presetname name="Preset:1"/>
+			<presetname name="Preset:2"/>
+			<presetname name="Preset:3"/>
+			<presetname name="Preset:4"/>
+			<presetname name="Preset:5"/>
+			<presetname name="Preset:6"/>
+			<presetname name="Preset:7"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+</ui>

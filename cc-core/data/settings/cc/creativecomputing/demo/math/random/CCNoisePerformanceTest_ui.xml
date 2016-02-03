@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="app" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="app">
+				<uielements>
+					<CCUIButton label="active">
+						<preset value="true"/>
+					</CCUIButton>
+					<CCUISlider label="width">
+						<preset value="0.39333335"/>
+					</CCUISlider>
+					<CCUISlider label="height">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="scale">
+						<preset value="5.333333"/>
+					</CCUISlider>
+					<CCUISlider label="samples">
+						<preset value="200"/>
+					</CCUISlider>
+					<CCUIButton label="pause">
+						<preset value="false"/>
+					</CCUIButton>
+					<CCUIButton label="print">
+						<preset value="false"/>
+					</CCUIButton>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+</ui>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="app" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="app">
+				<uielements>
+					<CCUISlider label="jitter">
+						<preset value="19.333332"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+	<CCControlPresetTab label="filter" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="filter manager">
+				<uielements>
+					<CCUIDropDown label="filter type">
+						<preset value="ONE_EURO"/>
+					</CCUIDropDown>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="filter settings">
+				<uielements>
+					<CCUISlider label="minimum cutoff">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="cutoff slope">
+						<preset value="0.007"/>
+					</CCUISlider>
+					<CCUISlider label="derivative cutoff">
+						<preset value="1.0"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+</ui>

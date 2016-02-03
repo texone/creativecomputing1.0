@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="app" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="oneEuroFilter">
+				<uielements>
+					<CCUISlider label="cutoff slope">
+						<preset value="0.0013333337"/>
+					</CCUISlider>
+					<CCUISlider label="minimum cutoff">
+						<preset value="3.0"/>
+					</CCUISlider>
+					<CCUISlider label="derivative cutoff">
+						<preset value="1.5999999"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="app">
+				<uielements>
+					<CCUIDropDown label="signal">
+						<preset value="SIMPLEX"/>
+					</CCUIDropDown>
+					<CCUISlider label="scale">
+						<preset value="0.04"/>
+					</CCUISlider>
+					<CCUISlider label="sub scale">
+						<preset value="0.20666666"/>
+					</CCUISlider>
+					<CCUISlider label="offset">
+						<preset value="20.666666"/>
+					</CCUISlider>
+					<CCUISlider label="bands">
+						<preset value="2.02"/>
+					</CCUISlider>
+					<CCUISlider label="lacunarity">
+						<preset value="10.0"/>
+					</CCUISlider>
+					<CCUISlider label="gain">
+						<preset value="0.07333333"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+</ui>

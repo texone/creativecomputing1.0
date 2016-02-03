@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="app" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="app">
+				<uielements>
+					<CCUISlider label="smoothing">
+						<preset value="0.96"/>
+					</CCUISlider>
+					<CCUISlider label="threshold">
+						<preset value="0.12666667"/>
+					</CCUISlider>
+					<CCUISlider label="normal radius">
+						<preset value="10.333333"/>
+					</CCUISlider>
+					<CCUISlider label="refraction">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="min depth">
+						<preset value="0.14666666"/>
+					</CCUISlider>
+					<CCUISlider label="max depth">
+						<preset value="0.29333332"/>
+					</CCUISlider>
+					<CCUIButton label="draw depth maps">
+						<preset value="false"/>
+					</CCUIButton>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+</ui>

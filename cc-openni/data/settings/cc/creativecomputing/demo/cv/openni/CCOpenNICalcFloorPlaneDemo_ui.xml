@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="app" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="app">
+				<uielements>
+					<CCUISlider label="x 0">
+						<preset value="0.8666667"/>
+					</CCUISlider>
+					<CCUISlider label="y0">
+						<preset value="0.9533333"/>
+					</CCUISlider>
+					<CCUISlider label="x 1">
+						<preset value="0.16"/>
+					</CCUISlider>
+					<CCUISlider label="y1">
+						<preset value="0.94666666"/>
+					</CCUISlider>
+					<CCUISlider label="x 2">
+						<preset value="0.7"/>
+					</CCUISlider>
+					<CCUISlider label="y2">
+						<preset value="0.88"/>
+					</CCUISlider>
+					<CCUISlider label="plane smoothing">
+						<preset value="0.994"/>
+					</CCUISlider>
+					<CCUISlider label="plane alpha">
+						<preset value="0.5133333"/>
+					</CCUISlider>
+					<CCUIButton label="draw debug">
+						<preset value="true"/>
+					</CCUIButton>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+</ui>

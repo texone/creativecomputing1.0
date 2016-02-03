@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="stopwatch" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="stopwatch">
+				<uielements>
+					<CCUIButton label="active">
+						<preset value="false"/>
+					</CCUIButton>
+					<CCUISlider label="width">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="height">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="scale">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="samples">
+						<preset value="50"/>
+					</CCUISlider>
+					<CCUIButton label="pause">
+						<preset value="false"/>
+					</CCUIButton>
+					<CCUIButton label="print">
+						<preset value="false"/>
+					</CCUIButton>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+	<CCControlPresetTab label="openni" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="floorplane">
+				<uielements>
+					<CCUISlider label="x 0">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="y0">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="x 1">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="y1">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="x 2">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="y2">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="plane smoothing">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="plane alpha">
+						<preset value="0.39333335"/>
+					</CCUISlider>
+					<CCUIButton label="calculate">
+						<preset value="true"/>
+					</CCUIButton>
+					<CCUIButton label="draw debug">
+						<preset value="true"/>
+					</CCUIButton>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="transform">
+				<uielements>
+					<CCUISlider label="openNI rotate X">
+						<preset value="-4.799988"/>
+					</CCUISlider>
+					<CCUISlider label="openNI rotate Z">
+						<preset value="-7.199997"/>
+					</CCUISlider>
+					<CCUISlider label="openNI translate X">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="openNI translate Y">
+						<preset value="-1200.0"/>
+					</CCUISlider>
+					<CCUISlider label="openNI translate Z">
+						<preset value="2666.6665"/>
+					</CCUISlider>
+					<CCUISlider label="openNI scale">
+						<preset value="1.0239999"/>
+					</CCUISlider>
+					<CCUISlider label="skinscale">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUIButton label="use floor plane detector">
+						<preset value="false"/>
+					</CCUIButton>
+					<CCUIButton label="draw textures">
+						<preset value="false"/>
+					</CCUIButton>
+					<CCUIButton label="draw openni skeleton">
+						<preset value="true"/>
+					</CCUIButton>
+					<CCUIButton label="draw cc skeleton">
+						<preset value="true"/>
+					</CCUIButton>
+					<CCUISlider label="start">
+						<preset value="0.33333334"/>
+					</CCUISlider>
+					<CCUISlider label="end">
+						<preset value="1.0"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="filter">
+				<uielements>
+					<CCUIDropDown label="filter">
+						<preset value="DOUBLE_EXPONENTIAL_SMOOTHING"/>
+					</CCUIDropDown>
+					<CCUISlider label="filter inputs">
+						<preset value="1"/>
+					</CCUISlider>
+					<CCUISlider label="filter forecast">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="filter weight">
+						<preset value="0.97333336"/>
+					</CCUISlider>
+					<CCUISlider label="filter trend weight">
+						<preset value="0.033333335"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="area">
+				<uielements>
+					<CCUISlider label="x1">
+						<preset value="1333.3333"/>
+					</CCUISlider>
+					<CCUISlider label="z1">
+						<preset value="1333.333"/>
+					</CCUISlider>
+					<CCUISlider label="x2">
+						<preset value="1813.3333"/>
+					</CCUISlider>
+					<CCUISlider label="z2">
+						<preset value="-666.667"/>
+					</CCUISlider>
+					<CCUISlider label="x3">
+						<preset value="-1520.0"/>
+					</CCUISlider>
+					<CCUISlider label="z3">
+						<preset value="-933.333"/>
+					</CCUISlider>
+					<CCUISlider label="x4">
+						<preset value="-1626.6666"/>
+					</CCUISlider>
+					<CCUISlider label="z4">
+						<preset value="1066.667"/>
+					</CCUISlider>
+					<CCUISlider label="y1">
+						<preset value="-2000.0"/>
+					</CCUISlider>
+					<CCUISlider label="y2">
+						<preset value="-2000.0"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+</ui>

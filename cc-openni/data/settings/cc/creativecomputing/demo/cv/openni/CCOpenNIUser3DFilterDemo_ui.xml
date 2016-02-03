@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="app" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="app">
+				<uielements>
+					<CCUISlider label="filter inputs">
+						<preset value="9"/>
+					</CCUISlider>
+					<CCUISlider label="filter forecast">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="filter weight">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="filter trend weight">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUIDropDown label="filter">
+						<preset value="SIMPLE_MOVING_AVERAGE"/>
+					</CCUIDropDown>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="draw">
+				<uielements>
+					<CCUISlider label="direct alpha">
+						<preset value="0.6533333"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+</ui>

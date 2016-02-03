@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="app" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="app">
+				<uielements>
+					<CCUISlider label="volume x">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="volume y">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="volume z">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="volume width">
+						<preset value="700.0"/>
+					</CCUISlider>
+					<CCUISlider label="volume height">
+						<preset value="500.0"/>
+					</CCUISlider>
+					<CCUISlider label="volume depth">
+						<preset value="366.66666"/>
+					</CCUISlider>
+					<CCUIButton label="draw volume">
+						<preset value="true"/>
+					</CCUIButton>
+					<CCUIButton label="draw depthmap">
+						<preset value="false"/>
+					</CCUIButton>
+					<CCUISlider label="color scale">
+						<preset value="0.6"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+</ui>

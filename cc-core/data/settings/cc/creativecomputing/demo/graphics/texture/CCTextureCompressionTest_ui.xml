@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="app" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="app">
+				<uielements>
+					<CCUISlider label="red">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="green">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="blue">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUIDropDown label="filter">
+						<preset value="NEAREST"/>
+					</CCUIDropDown>
+					<CCUIDropDown label="mipmap filter">
+						<preset value="NEAREST"/>
+					</CCUIDropDown>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+</ui>

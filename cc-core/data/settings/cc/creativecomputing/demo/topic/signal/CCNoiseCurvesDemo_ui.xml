@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="app" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="noise">
+				<uielements>
+					<CCUISlider label="scale">
+						<preset value="0.0013333337"/>
+					</CCUISlider>
+					<CCUISlider label="octaves">
+						<preset value="4.3"/>
+					</CCUISlider>
+					<CCUISlider label="gain">
+						<preset value="0.49333334"/>
+					</CCUISlider>
+					<CCUISlider label="lacunarity">
+						<preset value="2.0"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="app">
+				<uielements>
+					<CCUISlider label="x0">
+						<preset value="-500.0"/>
+					</CCUISlider>
+					<CCUISlider label="y0">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="x1">
+						<preset value="500.0"/>
+					</CCUISlider>
+					<CCUISlider label="y1">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="curveRadius">
+						<preset value="69.986664"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+</ui>

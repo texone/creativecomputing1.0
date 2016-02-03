@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="app" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="floorplane">
+				<uielements>
+					<CCUISlider label="x 0">
+						<preset value="0.70666665"/>
+					</CCUISlider>
+					<CCUISlider label="y0">
+						<preset value="0.8666667"/>
+					</CCUISlider>
+					<CCUISlider label="x 1">
+						<preset value="0.28"/>
+					</CCUISlider>
+					<CCUISlider label="y1">
+						<preset value="0.96"/>
+					</CCUISlider>
+					<CCUISlider label="x 2">
+						<preset value="0.27600002"/>
+					</CCUISlider>
+					<CCUISlider label="y2">
+						<preset value="0.8466667"/>
+					</CCUISlider>
+					<CCUISlider label="plane smoothing">
+						<preset value="0.96666664"/>
+					</CCUISlider>
+					<CCUISlider label="plane alpha">
+						<preset value="0.26"/>
+					</CCUISlider>
+					<CCUIButton label="draw debug">
+						<preset value="true"/>
+					</CCUIButton>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="area">
+				<uielements>
+					<CCUISlider label="x1">
+						<preset value="1253.3333"/>
+					</CCUISlider>
+					<CCUISlider label="z1">
+						<preset value="5666.6665"/>
+					</CCUISlider>
+					<CCUISlider label="x2">
+						<preset value="-2000.0"/>
+					</CCUISlider>
+					<CCUISlider label="z2">
+						<preset value="5400.0"/>
+					</CCUISlider>
+					<CCUISlider label="x3">
+						<preset value="-2000.0"/>
+					</CCUISlider>
+					<CCUISlider label="z3">
+						<preset value="3933.3335"/>
+					</CCUISlider>
+					<CCUISlider label="x4">
+						<preset value="2000.0"/>
+					</CCUISlider>
+					<CCUISlider label="z4">
+						<preset value="3600.0002"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="app">
+				<uielements>
+					<CCUISlider label="direct alpha">
+						<preset value="0.36666667"/>
+					</CCUISlider>
+					<CCUISlider label="box alpha">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="openNI rotate X">
+						<preset value="-4.799988"/>
+					</CCUISlider>
+					<CCUISlider label="openNI translate X">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="openNI translate Y">
+						<preset value="-1200.0"/>
+					</CCUISlider>
+					<CCUISlider label="openNI translate Z">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="openNI scale">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUIButton label="use floor plane detector">
+						<preset value="true"/>
+					</CCUIButton>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+</ui>

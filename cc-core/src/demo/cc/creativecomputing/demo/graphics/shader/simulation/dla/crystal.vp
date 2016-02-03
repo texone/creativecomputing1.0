@@ -1,0 +1,8 @@
+uniform samplerRECT crystalTexture;
+
+void main(
+ in 	float4 iPosition : POSITION,
+ out 	float4 o : TEXCOORD0
+){
+
+}

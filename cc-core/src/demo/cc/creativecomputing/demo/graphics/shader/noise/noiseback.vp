@@ -1,0 +1,20 @@
+uniform float noiseScale = 1;
+uniform float noiseZ = 0;
+uniform float noisePow;
+uniform float4x4 modelViewProjectionMatrix:state.matrix.mvp;
+	
+void main(
+	in  float4 iPosition	: POSITION,
+	out float4 oPosition	: POSITION,
+	out float4 ocolor		: COLOR
+) { 
+	float3 noisePosition = iPosition.xyz * noiseScale;
+	noisePosition.z = noiseZ;
+	
+	float myNoise = (noise(noisePosition) + 1) / 2;
+	myNoise = pow(myNoise,noisePow);
+	iPosition.z = myNoise * 200;
+	// Transform position from object space to clip space
+  	oPosition = mul(modelViewProjectionMatrix, iPosition);
+	ocolor = float4(myNoise,myNoise,myNoise,1);
+}     

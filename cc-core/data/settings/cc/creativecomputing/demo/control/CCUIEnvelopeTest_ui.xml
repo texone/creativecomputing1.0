@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="circles" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="circle1">
+				<uielements>
+					<CCUISlider label="x">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="y">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="radius">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCTimedDataUI label="envelope">
+						<preset>
+							<envelope>
+								<ControlPoint x="0.36" y="0.19999999" type="linear"/>
+								<ControlPoint x="1.1866666" y="0.6666666" type="linear"/>
+								<ControlPoint x="1.6933334" y="0.13333333" type="linear"/>
+							</envelope>
+							<envelope/>
+							<envelope/>
+							<envelope/>
+						</preset>
+					</CCTimedDataUI>
+					<CCUIEnvelopeControl label="envelopes">
+						<uielements/>
+					</CCUIEnvelopeControl>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="circle2">
+				<uielements>
+					<CCUISlider label="x">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="y">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="radius">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCTimedDataUI label="envelope">
+						<preset>
+							<envelope>
+								<ControlPoint x="0.4" y="0.18666667" type="linear"/>
+								<ControlPoint x="1.04" y="0.72" type="linear"/>
+								<ControlPoint x="1.56" y="0.14666665" type="linear"/>
+							</envelope>
+							<envelope/>
+							<envelope/>
+							<envelope/>
+						</preset>
+					</CCTimedDataUI>
+					<CCUIEnvelopeControl label="envelopes">
+						<uielements/>
+					</CCUIEnvelopeControl>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+</ui>

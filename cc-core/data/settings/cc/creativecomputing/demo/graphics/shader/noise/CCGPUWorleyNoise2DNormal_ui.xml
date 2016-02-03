@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+	<CCControlPresetTab label="worley" selectedpreset="2" numberofpresets="3">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="worley">
+				<uielements>
+					<CCUISlider label="jitter">
+						<preset value="0.0"/>
+						<preset value="0.74666667"/>
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="scale">
+						<preset value="0.46"/>
+						<preset value="0.54"/>
+						<preset value="0.54"/>
+					</CCUISlider>
+					<CCUISlider label="ambient range">
+						<preset value="0.06666667"/>
+						<preset value="0.06666667"/>
+						<preset value="0.06666667"/>
+					</CCUISlider>
+					<CCUISlider label="ambient range Amount">
+						<preset value="0.98"/>
+						<preset value="0.98"/>
+						<preset value="0.98"/>
+					</CCUISlider>
+					<CCUISlider label="ambient depth">
+						<preset value="0.0"/>
+						<preset value="0.0"/>
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="ambient depth 1">
+						<preset value="0.28666666"/>
+						<preset value="0.28666666"/>
+						<preset value="0.28666666"/>
+					</CCUISlider>
+					<CCUISlider label="ambient depth 2">
+						<preset value="0.0"/>
+						<preset value="0.0"/>
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="ambient depth 3">
+						<preset value="0.0"/>
+						<preset value="0.0"/>
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="ambient amount 1">
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="ambient amount 2">
+						<preset value="0.0"/>
+						<preset value="0.0"/>
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="ambient amount 3">
+						<preset value="0.0"/>
+						<preset value="0.0"/>
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="amount 1">
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="amount 2">
+						<preset value="0.0"/>
+						<preset value="0.0"/>
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="amount 3">
+						<preset value="0.0"/>
+						<preset value="0.0"/>
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="min depth">
+						<preset value="0.0"/>
+						<preset value="0.0"/>
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="move z">
+						<preset value="13.0"/>
+						<preset value="13.0"/>
+						<preset value="13.0"/>
+					</CCUISlider>
+					<CCUISlider label="move z 1">
+						<preset value="9.799999"/>
+						<preset value="9.799999"/>
+						<preset value="9.799999"/>
+					</CCUISlider>
+					<CCUISlider label="move z 2">
+						<preset value="9.799999"/>
+						<preset value="9.799999"/>
+						<preset value="9.799999"/>
+					</CCUISlider>
+					<CCUISlider label="move z 3">
+						<preset value="9.799999"/>
+						<preset value="9.799999"/>
+						<preset value="9.799999"/>
+					</CCUISlider>
+					<CCUISlider label="move x">
+						<preset value="13.0"/>
+						<preset value="13.0"/>
+						<preset value="13.0"/>
+					</CCUISlider>
+					<CCUISlider label="move y">
+						<preset value="9.799999"/>
+						<preset value="9.799999"/>
+						<preset value="9.799999"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="light">
+				<uielements>
+					<CCUISlider label="depth scale">
+						<preset value="10.0"/>
+						<preset value="10.0"/>
+						<preset value="10.0"/>
+					</CCUISlider>
+					<CCUISlider label="light x">
+						<preset value="0.0"/>
+						<preset value="0.0"/>
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="light y">
+						<preset value="0.76"/>
+						<preset value="0.76"/>
+						<preset value="0.76"/>
+					</CCUISlider>
+					<CCUISlider label="light z">
+						<preset value="-0.093333304"/>
+						<preset value="-0.093333304"/>
+						<preset value="-0.093333304"/>
+					</CCUISlider>
+					<CCUISlider label="color depth 1">
+						<preset value="0.06666667"/>
+						<preset value="0.06666667"/>
+						<preset value="0.06666667"/>
+					</CCUISlider>
+					<CCUISlider label="color depth 2">
+						<preset value="0.06666667"/>
+						<preset value="0.06666667"/>
+						<preset value="0.06666667"/>
+					</CCUISlider>
+					<CCUISlider label="ambient1 r">
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="ambient1 g">
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="ambient1 b">
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="ambient2 r">
+						<preset value="0.7266667"/>
+						<preset value="0.7266667"/>
+						<preset value="0.78"/>
+					</CCUISlider>
+					<CCUISlider label="ambient2 g">
+						<preset value="0.75333333"/>
+						<preset value="0.75333333"/>
+						<preset value="0.76666665"/>
+					</CCUISlider>
+					<CCUISlider label="ambient2 b">
+						<preset value="0.73333335"/>
+						<preset value="0.73333335"/>
+						<preset value="0.74"/>
+					</CCUISlider>
+					<CCUISlider label="diffuse1 r">
+						<preset value="0.0"/>
+						<preset value="0.0"/>
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="diffuse1 g">
+						<preset value="0.0"/>
+						<preset value="0.0"/>
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="diffuse1 b">
+						<preset value="0.0"/>
+						<preset value="0.0"/>
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="diffuse2 r">
+						<preset value="0.18666667"/>
+						<preset value="0.18666667"/>
+						<preset value="0.24"/>
+					</CCUISlider>
+					<CCUISlider label="diffuse2 g">
+						<preset value="0.16"/>
+						<preset value="0.16"/>
+						<preset value="0.22666667"/>
+					</CCUISlider>
+					<CCUISlider label="diffuse2 b">
+						<preset value="0.16666667"/>
+						<preset value="0.16666667"/>
+						<preset value="0.32666665"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="worley">
+				<uielements/>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+			<presetname name="Preset:1"/>
+			<presetname name="Preset:2"/>
+		</presetnames>
+	</CCControlPresetTab>
+</ui>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="app" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="app">
+				<uielements>
+					<CCUISlider label="distance">
+						<preset value="-0.2733333"/>
+					</CCUISlider>
+					<CCUISlider label="rotation">
+						<preset value="153.6"/>
+					</CCUISlider>
+					<CCUISlider label="rotation2">
+						<preset value="732.0"/>
+					</CCUISlider>
+					<CCUISlider label="angle">
+						<preset value="-58.4"/>
+					</CCUISlider>
+					<CCUISlider label="x">
+						<preset value="80.0"/>
+					</CCUISlider>
+					<CCUISlider label="y">
+						<preset value="40.00006"/>
+					</CCUISlider>
+					<CCUISlider label="z">
+						<preset value="40.00006"/>
+					</CCUISlider>
+					<CCUISlider label="angleAdd">
+						<preset value="32.799995"/>
+					</CCUISlider>
+					<CCUIButton label="mirror">
+						<preset value="false"/>
+					</CCUIButton>
+					<CCUIButton label="double">
+						<preset value="false"/>
+					</CCUIButton>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+</ui>

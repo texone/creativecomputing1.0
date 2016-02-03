@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="app" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="app">
+				<uielements>
+					<CCUISlider label="in pow">
+						<preset value="1.37"/>
+					</CCUISlider>
+					<CCUISlider label="amp">
+						<preset value="0.22"/>
+					</CCUISlider>
+					<CCUISlider label="amp mod">
+						<preset value="-0.5333333"/>
+					</CCUISlider>
+					<CCUISlider label="freq">
+						<preset value="23.333334"/>
+					</CCUISlider>
+					<CCUISlider label="freq mod">
+						<preset value="-0.5333333"/>
+					</CCUISlider>
+					<CCUISlider label="freq random">
+						<preset value="0.48"/>
+					</CCUISlider>
+					<CCUISlider label="phase">
+						<preset value="46.0"/>
+					</CCUISlider>
+					<CCUISlider label="phase2">
+						<preset value="54.666668"/>
+					</CCUISlider>
+					<CCUISlider label="phase random">
+						<preset value="0.47333333"/>
+					</CCUISlider>
+					<CCUISlider label="max cycles">
+						<preset value="4.733333"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+</ui>

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="app" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="filter">
+				<uielements>
+					<CCUIDropDown label="filter type">
+						<preset value="SIMPLE_MOVING_AVERAGE"/>
+					</CCUIDropDown>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="app">
+				<uielements>
+					<CCUIButton label="draw skin">
+						<preset value="true"/>
+					</CCUIButton>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="Hips rotation">
+				<uielements>
+					<CCUISlider label="x rotation">
+						<preset value="-10.560013"/>
+					</CCUISlider>
+					<CCUISlider label="y rotation">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="z rotation">
+						<preset value="0.0"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="right hand rotation">
+				<uielements>
+					<CCUISlider label="x rotation">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="y rotation">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="z rotation">
+						<preset value="0.0"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="right forearm rotation">
+				<uielements>
+					<CCUISlider label="x rotation">
+						<preset value="-10.560013"/>
+					</CCUISlider>
+					<CCUISlider label="y rotation">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="z rotation">
+						<preset value="-7.199997"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="right arm rotation">
+				<uielements>
+					<CCUISlider label="x rotation">
+						<preset value="-6.4799957"/>
+					</CCUISlider>
+					<CCUISlider label="y rotation">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="z rotation">
+						<preset value="0.0"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="left hand rotation">
+				<uielements>
+					<CCUISlider label="x rotation">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="y rotation">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="z rotation">
+						<preset value="0.0"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="left forearm rotation">
+				<uielements>
+					<CCUISlider label="x rotation">
+						<preset value="-2.1600037"/>
+					</CCUISlider>
+					<CCUISlider label="y rotation">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="z rotation">
+						<preset value="-5.0399933"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="left arm rotation">
+				<uielements>
+					<CCUISlider label="x rotation">
+						<preset value="-2.399994"/>
+					</CCUISlider>
+					<CCUISlider label="y rotation">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="z rotation">
+						<preset value="-7.199997"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="transform">
+				<uielements>
+					<CCUIButton label="apply">
+						<preset value="true"/>
+					</CCUIButton>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="right foot rotation">
+				<uielements>
+					<CCUISlider label="x rotation">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="y rotation">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="z rotation">
+						<preset value="21.600006"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="right leg rotation">
+				<uielements>
+					<CCUISlider label="x rotation">
+						<preset value="-7.199997"/>
+					</CCUISlider>
+					<CCUISlider label="y rotation">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="z rotation">
+						<preset value="0.0"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="right upleg rotation">
+				<uielements>
+					<CCUISlider label="x rotation">
+						<preset value="2.399994"/>
+					</CCUISlider>
+					<CCUISlider label="y rotation">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="z rotation">
+						<preset value="2.399994"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="left foot rotation">
+				<uielements>
+					<CCUISlider label="x rotation">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="y rotation">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="z rotation">
+						<preset value="21.600006"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="left leg rotation">
+				<uielements>
+					<CCUISlider label="x rotation">
+						<preset value="-7.199997"/>
+					</CCUISlider>
+					<CCUISlider label="y rotation">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="z rotation">
+						<preset value="-2.399994"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="left upleg rotation">
+				<uielements>
+					<CCUISlider label="x rotation">
+						<preset value="-2.399994"/>
+					</CCUISlider>
+					<CCUISlider label="y rotation">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="z rotation">
+						<preset value="2.399994"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="transform">
+				<uielements/>
+			</CCUIComponent>
+			<CCUIComponent label="filter settings">
+				<uielements>
+					<CCUISlider label="buffer size">
+						<preset value="1"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+</ui>

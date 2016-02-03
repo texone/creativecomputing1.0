@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+	<CCControlPresetTab label="dmx" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="01-12">
+				<uielements>
+					<CCUISlider label="fader 01">
+						<preset value="0"/>
+					</CCUISlider>
+					<CCUISlider label="fader 02">
+						<preset value="0"/>
+					</CCUISlider>
+					<CCUISlider label="fader 03">
+						<preset value="0"/>
+					</CCUISlider>
+					<CCUISlider label="fader 04">
+						<preset value="0"/>
+					</CCUISlider>
+					<CCUISlider label="fader 05">
+						<preset value="0"/>
+					</CCUISlider>
+					<CCUISlider label="fader 06">
+						<preset value="0"/>
+					</CCUISlider>
+					<CCUISlider label="fader 07">
+						<preset value="0"/>
+					</CCUISlider>
+					<CCUISlider label="fader 08">
+						<preset value="0"/>
+					</CCUISlider>
+					<CCUISlider label="fader 09">
+						<preset value="0"/>
+					</CCUISlider>
+					<CCUISlider label="fader 10">
+						<preset value="0"/>
+					</CCUISlider>
+					<CCUISlider label="fader 11">
+						<preset value="0"/>
+					</CCUISlider>
+					<CCUISlider label="fader 12">
+						<preset value="0"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="13-24">
+				<uielements>
+					<CCUISlider label="fader 01">
+						<preset value="0"/>
+					</CCUISlider>
+					<CCUISlider label="fader 02">
+						<preset value="0"/>
+					</CCUISlider>
+					<CCUISlider label="fader 03">
+						<preset value="0"/>
+					</CCUISlider>
+					<CCUISlider label="fader 04">
+						<preset value="0"/>
+					</CCUISlider>
+					<CCUISlider label="fader 05">
+						<preset value="0"/>
+					</CCUISlider>
+					<CCUISlider label="fader 06">
+						<preset value="0"/>
+					</CCUISlider>
+					<CCUISlider label="fader 07">
+						<preset value="0"/>
+					</CCUISlider>
+					<CCUISlider label="fader 08">
+						<preset value="0"/>
+					</CCUISlider>
+					<CCUISlider label="fader 09">
+						<preset value="0"/>
+					</CCUISlider>
+					<CCUISlider label="fader 10">
+						<preset value="0"/>
+					</CCUISlider>
+					<CCUISlider label="fader 11">
+						<preset value="0"/>
+					</CCUISlider>
+					<CCUISlider label="fader 12">
+						<preset value="0"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="25-36">
+				<uielements>
+					<CCUISlider label="fader 01">
+						<preset value="0"/>
+					</CCUISlider>
+					<CCUISlider label="fader 02">
+						<preset value="0"/>
+					</CCUISlider>
+					<CCUISlider label="fader 03">
+						<preset value="0"/>
+					</CCUISlider>
+					<CCUISlider label="fader 04">
+						<preset value="0"/>
+					</CCUISlider>
+					<CCUISlider label="fader 05">
+						<preset value="0"/>
+					</CCUISlider>
+					<CCUISlider label="fader 06">
+						<preset value="0"/>
+					</CCUISlider>
+					<CCUISlider label="fader 07">
+						<preset value="0"/>
+					</CCUISlider>
+					<CCUISlider label="fader 08">
+						<preset value="0"/>
+					</CCUISlider>
+					<CCUISlider label="fader 09">
+						<preset value="0"/>
+					</CCUISlider>
+					<CCUISlider label="fader 10">
+						<preset value="0"/>
+					</CCUISlider>
+					<CCUISlider label="fader 11">
+						<preset value="0"/>
+					</CCUISlider>
+					<CCUISlider label="fader 12">
+						<preset value="0"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="37-48">
+				<uielements>
+					<CCUISlider label="fader 01">
+						<preset value="0"/>
+					</CCUISlider>
+					<CCUISlider label="fader 02">
+						<preset value="0"/>
+					</CCUISlider>
+					<CCUISlider label="fader 03">
+						<preset value="0"/>
+					</CCUISlider>
+					<CCUISlider label="fader 04">
+						<preset value="0"/>
+					</CCUISlider>
+					<CCUISlider label="fader 05">
+						<preset value="0"/>
+					</CCUISlider>
+					<CCUISlider label="fader 06">
+						<preset value="0"/>
+					</CCUISlider>
+					<CCUISlider label="fader 07">
+						<preset value="0"/>
+					</CCUISlider>
+					<CCUISlider label="fader 08">
+						<preset value="0"/>
+					</CCUISlider>
+					<CCUISlider label="fader 09">
+						<preset value="0"/>
+					</CCUISlider>
+					<CCUISlider label="fader 10">
+						<preset value="0"/>
+					</CCUISlider>
+					<CCUISlider label="fader 11">
+						<preset value="0"/>
+					</CCUISlider>
+					<CCUISlider label="fader 12">
+						<preset value="0"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+</ui>

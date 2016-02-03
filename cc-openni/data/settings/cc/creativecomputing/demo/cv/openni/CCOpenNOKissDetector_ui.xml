@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+	<CCControlPresetTab label="openni" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="arcball">
+				<uielements>
+					<CCUIButton label="reset">
+						<preset value="false"/>
+					</CCUIButton>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="leg fixer">
+				<uielements>
+					<CCUISlider label="foot plane y">
+						<preset value="-600.0"/>
+					</CCUISlider>
+					<CCUISlider label="hip neck floor ratio">
+						<preset value="0.5"/>
+					</CCUISlider>
+					<CCUISlider label="max foot level">
+						<preset value="133.33334"/>
+					</CCUISlider>
+					<CCUISlider label="plane draw scale">
+						<preset value="500.0"/>
+					</CCUISlider>
+					<CCUIButton label="active">
+						<preset value="true"/>
+					</CCUIButton>
+					<CCUIButton label="draw debug">
+						<preset value="true"/>
+					</CCUIButton>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="skeleton provider">
+				<uielements>
+					<CCUIButton label="fix limb length">
+						<preset value="true"/>
+					</CCUIButton>
+					<CCUIButton label="rescale size">
+						<preset value="true"/>
+					</CCUIButton>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="transform">
+				<uielements>
+					<CCUIButton label="rotate from plane">
+						<preset value="false"/>
+					</CCUIButton>
+					<CCUIButton label="translate from plane">
+						<preset value="false"/>
+					</CCUIButton>
+					<CCUISlider label="openNI rotate X">
+						<preset value="-30.207968"/>
+					</CCUISlider>
+					<CCUISlider label="openNI rotate Y">
+						<preset value="-180.0"/>
+					</CCUISlider>
+					<CCUISlider label="openNI rotate Z">
+						<preset value="2.8220956"/>
+					</CCUISlider>
+					<CCUISlider label="openNI translate X">
+						<preset value="-193.69829"/>
+					</CCUISlider>
+					<CCUISlider label="openNI translate Y">
+						<preset value="-1658.458"/>
+					</CCUISlider>
+					<CCUISlider label="openNI translate Z">
+						<preset value="2621.4617"/>
+					</CCUISlider>
+					<CCUISlider label="floor plane y">
+						<preset value="-2461.455"/>
+					</CCUISlider>
+					<CCUISlider label="openNI scale">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUIButton label="draw textures">
+						<preset value="false"/>
+					</CCUIButton>
+					<CCUIButton label="draw depth map skeleton">
+						<preset value="false"/>
+					</CCUIButton>
+					<CCUIButton label="draw openni skeleton">
+						<preset value="false"/>
+					</CCUIButton>
+					<CCUIButton label="draw cc skeleton">
+						<preset value="true"/>
+					</CCUIButton>
+					<CCUISlider label="start">
+						<preset value="0.033333335"/>
+					</CCUISlider>
+					<CCUISlider label="end">
+						<preset value="0.94"/>
+					</CCUISlider>
+					<CCUIButton label="update">
+						<preset value="false"/>
+					</CCUIButton>
+					<CCUIButton label="log memery usage">
+						<preset value="false"/>
+					</CCUIButton>
+					<CCUISlider label="min kiss distance">
+						<preset value="400.0"/>
+					</CCUISlider>
+					<CCUIButton label="precalibrate from skeleton">
+						<preset value="false"/>
+					</CCUIButton>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="filter">
+				<uielements>
+					<CCUIDropDown label="filter type">
+						<preset value="ONE_EURO"/>
+					</CCUIDropDown>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="area">
+				<uielements>
+					<CCUIButton label="active">
+						<preset value="false"/>
+					</CCUIButton>
+					<CCUISlider label="x1">
+						<preset value="-693.6983"/>
+					</CCUISlider>
+					<CCUISlider label="z1">
+						<preset value="3121.4617"/>
+					</CCUISlider>
+					<CCUISlider label="x2">
+						<preset value="306.3017"/>
+					</CCUISlider>
+					<CCUISlider label="z2">
+						<preset value="3121.4617"/>
+					</CCUISlider>
+					<CCUISlider label="x3">
+						<preset value="306.3017"/>
+					</CCUISlider>
+					<CCUISlider label="z3">
+						<preset value="2121.4617"/>
+					</CCUISlider>
+					<CCUISlider label="x4">
+						<preset value="-693.6983"/>
+					</CCUISlider>
+					<CCUISlider label="z4">
+						<preset value="2121.4617"/>
+					</CCUISlider>
+					<CCUISlider label="height">
+						<preset value="1733.3334"/>
+					</CCUISlider>
+					<CCUISlider label="xOffset">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="zOffset">
+						<preset value="0.0"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="filter settings">
+				<uielements>
+					<CCUISlider label="minimum cutoff">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="cutoff slope">
+						<preset value="0.007"/>
+					</CCUISlider>
+					<CCUISlider label="derivative cutoff">
+						<preset value="1.0"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+</ui>

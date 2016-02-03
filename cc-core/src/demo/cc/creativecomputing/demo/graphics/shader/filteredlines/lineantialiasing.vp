@@ -1,0 +1,70 @@
+uniform float4x4 modelViewProjection : state.matrix.mvp;
+
+uniform float radius;
+uniform float aspect;
+
+void main(
+	in float3 iPosition0 : POSITION,
+	in float3 iPosition1 : TEXCOORD0,
+	in float4 iWeights : TEXCOORD1,
+	in float4 iColor : COLOR,
+	out float4 oPosition : POSITION,
+	out float4 oColor : COLOR,
+	out float4 oTextureCoords : TEXCOORD0
+){
+
+	// Transform the input points.
+	float4 p0 = mul(modelViewProjection, float4(iPosition0,1));
+	float4 p1 = mul(modelViewProjection, float4(iPosition1,1));
+	
+	// Calculate output position based on this
+    // vertex's weights.
+    oPosition = p0 * iWeights.x + p1 * iWeights.y;
+	
+	// Warp transformed points by aspect ratio.
+    float4 w0 = p0;
+    float4 w1 = p1;
+    w0.y /= aspect;
+    w1.y /= aspect;
+
+    // Calc vectors between points in screen space.
+    float2  delta2 = w1.xy / w1.z - w0.xy / w0.z;
+    float3  delta_p;
+
+    delta_p.xy = delta2;
+    delta_p.z = w1.z - w0.z;
+    
+    // Calc UV basis vectors.
+    
+    // Calc U
+    float   len = length( delta2 );
+    float3  U = delta_p / len;
+
+    // Create V orthogonal to U.
+    float3  V;
+    V.x = U.y;
+    V.y = -U.x;
+    V.z = 0;
+
+    // Calc offset part of postion.
+    float3 offset = U * iWeights.z + V * iWeights.w;
+
+    // Apply line thickness.
+    offset.xy *= radius;
+
+    // Unwarp by inverse of aspect ratio.
+    offset.y *= 1;
+
+    // Undo perspective divide since the hardware will do it.
+	oPosition.xy += offset * oPosition.z;
+
+	// Set up UVs.  We have to use projected sampling rather
+    // than regular sampling because we don't want to get
+    // perspective correction.
+    oTextureCoords.x = iWeights.z;
+    oTextureCoords.y = iWeights.w;
+    oTextureCoords.z = 0.0f;
+    oTextureCoords.w = 1.0f;
+    
+    oColor = iColor;
+}

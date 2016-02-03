@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="sensors" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="himbeere">
+				<uielements>
+					<CCUIDropDown label="matrix draw mode">
+						<preset value="null"/>
+					</CCUIDropDown>
+					<CCUIButton label="draw blobs">
+						<preset value="false"/>
+					</CCUIButton>
+					<CCUIButton label="draw cursors">
+						<preset value="false"/>
+					</CCUIButton>
+					<CCUIButton label="draw scale point">
+						<preset value="false"/>
+					</CCUIButton>
+					<CCUISlider label="image thresh">
+						<preset value="95.2"/>
+					</CCUISlider>
+					<CCUISlider label="image amplify">
+						<preset value="5.2599998"/>
+					</CCUISlider>
+					<CCUISlider label="gain power">
+						<preset value="2.3999999"/>
+					</CCUISlider>
+					<CCUISlider label="component thresh">
+						<preset value="0"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+	<CCControlPresetTab label="heatmap" selectedpreset="0" numberofpresets="2">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="heatmap">
+				<uielements>
+					<CCUIDropDown label="matrix draw mode">
+						<preset value="SAND"/>
+						<preset value="INPUT"/>
+					</CCUIDropDown>
+					<CCUISlider label="input amplify">
+						<preset value="1.7066667"/>
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUIDropDown label="potential preprocessing">
+						<preset value="STANDARDIZE"/>
+						<preset value="null"/>
+					</CCUIDropDown>
+					<CCUISlider label="total pressure">
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="pressure thresh">
+						<preset value="0.0"/>
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="distance norm">
+						<preset value="0.72"/>
+						<preset value="1.0666667"/>
+					</CCUISlider>
+					<CCUISlider label="efield amplify">
+						<preset value="0.32"/>
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="hfield thresh">
+						<preset value="0.27333334"/>
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="clear speed">
+						<preset value="5.733333"/>
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="clear pressure">
+						<preset value="0.0"/>
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="heightmap blur">
+						<preset value="1.0"/>
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="heightmap reduction">
+						<preset value="0.0"/>
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="amp p">
+						<preset value="2.6666667"/>
+						<preset value="-100.0"/>
+					</CCUISlider>
+					<CCUISlider label="amp e">
+						<preset value="0.0"/>
+						<preset value="-10.0"/>
+					</CCUISlider>
+					<CCUIDropDown label="draw field">
+						<preset value="NOT"/>
+						<preset value="null"/>
+					</CCUIDropDown>
+					<CCUIDropDown label="draw surface">
+						<preset value="NOT"/>
+						<preset value="null"/>
+					</CCUIDropDown>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+			<presetname name="Preset:1"/>
+		</presetnames>
+	</CCControlPresetTab>
+</ui>

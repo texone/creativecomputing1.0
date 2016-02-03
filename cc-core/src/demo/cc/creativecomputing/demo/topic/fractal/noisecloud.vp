@@ -1,0 +1,15 @@
+uniform float4x4 mvp : state.matrix.mvp;
+uniform float4x4 tm : state.matrix.texture[0];
+
+void main(
+	in float4 iPosition : POSITION,
+	in float4 iTexCoords0 : TEXCOORD0,
+	in float4 iColor : COLOR0,
+	out float4 oPosition : POSITION,
+	out float2 oTexCoords0 : TEXCOORD0,
+	out float4 oColor : COLOR0
+){
+	oPosition = mul(mvp, iPosition);
+	oTexCoords0 = mul(tm, iTexCoords0).xy;
+	oColor = iColor;
+}

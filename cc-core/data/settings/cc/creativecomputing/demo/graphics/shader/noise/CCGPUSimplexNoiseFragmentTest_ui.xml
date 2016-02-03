@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+	<CCControlPresetTab label="noise" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="noise">
+				<uielements>
+					<CCUISlider label="noiseScaleX">
+						<preset value="0.1"/>
+					</CCUISlider>
+					<CCUISlider label="noiseScaleY">
+						<preset value="0.093333334"/>
+					</CCUISlider>
+					<CCUISlider label="noiseScaleZ">
+						<preset value="0.23333333"/>
+					</CCUISlider>
+					<CCUISlider label="noiseOcataves">
+						<preset value="10.0"/>
+					</CCUISlider>
+					<CCUISlider label="noise speed x">
+						<preset value="0.26666668"/>
+					</CCUISlider>
+					<CCUISlider label="noise speed y">
+						<preset value="0.39999998"/>
+					</CCUISlider>
+					<CCUISlider label="noise speed z">
+						<preset value="0.13333334"/>
+					</CCUISlider>
+					<CCUISlider label="noiseAmount">
+						<preset value="4.6666665"/>
+					</CCUISlider>
+					<CCUISlider label="fade">
+						<preset value="0.49333334"/>
+					</CCUISlider>
+					<CCUISlider label="fade size">
+						<preset value="1.0"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+</ui>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="app" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="app">
+				<uielements>
+					<CCUISlider label="gravity">
+						<preset value="-37.333332"/>
+					</CCUISlider>
+					<CCUISlider label="init velocity scale">
+						<preset value="306.6667"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="step">
+				<uielements>
+					<CCUISlider label="threshold">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="change thresh">
+						<preset value="8.333334"/>
+					</CCUISlider>
+					<CCUISlider label="max time">
+						<preset value="0.10666667"/>
+					</CCUISlider>
+					<CCUISlider label="draw scale">
+						<preset value="1.1333333"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+</ui>

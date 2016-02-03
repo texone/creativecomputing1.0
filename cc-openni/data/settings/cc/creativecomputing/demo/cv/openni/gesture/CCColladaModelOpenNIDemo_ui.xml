@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="app" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="humanoidController">
+				<uielements>
+					<CCUIButton label="draw">
+						<preset value="true"/>
+					</CCUIButton>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="bowelsController">
+				<uielements>
+					<CCUIButton label="draw">
+						<preset value="false"/>
+					</CCUIButton>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="mouthController">
+				<uielements>
+					<CCUIButton label="draw">
+						<preset value="false"/>
+					</CCUIButton>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="stomachController">
+				<uielements>
+					<CCUIButton label="draw">
+						<preset value="false"/>
+					</CCUIButton>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="gutController">
+				<uielements>
+					<CCUIButton label="draw">
+						<preset value="false"/>
+					</CCUIButton>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="app">
+				<uielements>
+					<CCUISlider label="openni scale">
+						<preset value="1.24"/>
+					</CCUISlider>
+					<CCUISlider label="z">
+						<preset value="-333.3333"/>
+					</CCUISlider>
+					<CCUISlider label="collada scale">
+						<preset value="4.0"/>
+					</CCUISlider>
+					<CCUISlider label="collada x">
+						<preset value="-333.3333"/>
+					</CCUISlider>
+					<CCUISlider label="collada y">
+						<preset value="-360.0"/>
+					</CCUISlider>
+					<CCUISlider label="collada z">
+						<preset value="-360.0"/>
+					</CCUISlider>
+					<CCUIButton label="update">
+						<preset value="true"/>
+					</CCUIButton>
+					<CCUISlider label="skinscale">
+						<preset value="1.0"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+</ui>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="app" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="app">
+				<uielements>
+					<CCUISlider label="volume x">
+						<preset value="-1266.6667"/>
+					</CCUISlider>
+					<CCUISlider label="volume y">
+						<preset value="-933.33325"/>
+					</CCUISlider>
+					<CCUISlider label="volume z">
+						<preset value="-3020.0"/>
+					</CCUISlider>
+					<CCUISlider label="volume width">
+						<preset value="2566.6665"/>
+					</CCUISlider>
+					<CCUISlider label="volume height">
+						<preset value="2266.6667"/>
+					</CCUISlider>
+					<CCUISlider label="volume depth">
+						<preset value="1023.3333"/>
+					</CCUISlider>
+					<CCUIButton label="draw volume">
+						<preset value="true"/>
+					</CCUIButton>
+					<CCUISlider label="color scale">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="smoothing">
+						<preset value="0.78"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="draw">
+				<uielements>
+					<CCUISlider label="z move">
+						<preset value="2800.0"/>
+					</CCUISlider>
+					<CCUIButton label="draw depthmap">
+						<preset value="true"/>
+					</CCUIButton>
+					<CCUIButton label="update depthmap">
+						<preset value="true"/>
+					</CCUIButton>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+</ui>

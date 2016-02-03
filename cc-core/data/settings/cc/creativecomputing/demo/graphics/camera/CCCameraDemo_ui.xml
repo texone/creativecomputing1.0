@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="camera" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="camera">
+				<uielements>
+					<CCUISlider label="camera near">
+						<preset value="200.0"/>
+					</CCUISlider>
+					<CCUISlider label="camera far">
+						<preset value="1333.3334"/>
+					</CCUISlider>
+					<CCUISlider label="frustum offset x">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="frustum offset y">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="x rotation">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="y rotation">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="z rotation">
+						<preset value="1.2566371"/>
+					</CCUISlider>
+					<CCUISlider label="x">
+						<preset value="33.333374"/>
+					</CCUISlider>
+					<CCUISlider label="y">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="z">
+						<preset value="500.0"/>
+					</CCUISlider>
+					<CCUIButton label="draw camera">
+						<preset value="false"/>
+					</CCUIButton>
+					<CCUISlider label="fov">
+						<preset value="0.6073746"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+</ui>

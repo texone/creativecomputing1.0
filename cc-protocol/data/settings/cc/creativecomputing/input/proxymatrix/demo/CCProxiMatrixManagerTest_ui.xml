@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="sensors" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="brombeere">
+				<uielements>
+					<CCUIButton label="draw blobs">
+						<preset value="false"/>
+					</CCUIButton>
+					<CCUIButton label="draw cursors">
+						<preset value="false"/>
+					</CCUIButton>
+					<CCUIButton label="draw scale point">
+						<preset value="false"/>
+					</CCUIButton>
+					<CCUISlider label="image thresh">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="image amplify">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="gain power">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="component thresh">
+						<preset value="0"/>
+					</CCUISlider>
+					<CCUIDropDown label="matrix draw mode">
+						<preset value="RAW"/>
+					</CCUIDropDown>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="himbeere">
+				<uielements>
+					<CCUIButton label="draw blobs">
+						<preset value="false"/>
+					</CCUIButton>
+					<CCUIButton label="draw cursors">
+						<preset value="false"/>
+					</CCUIButton>
+					<CCUIButton label="draw scale point">
+						<preset value="false"/>
+					</CCUIButton>
+					<CCUISlider label="image thresh">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="image amplify">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="gain power">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="component thresh">
+						<preset value="0"/>
+					</CCUISlider>
+					<CCUIDropDown label="matrix draw mode">
+						<preset value="RAW"/>
+					</CCUIDropDown>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+</ui>

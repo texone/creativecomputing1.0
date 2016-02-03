@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="app" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="app">
+				<uielements>
+					<CCUISlider label="origin x">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="origin y">
+						<preset value="2.7"/>
+					</CCUISlider>
+					<CCUISlider label="origin z">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="origin distance">
+						<preset value="5.1"/>
+					</CCUISlider>
+					<CCUISlider label="cam rotation">
+						<preset value="1.8430676"/>
+					</CCUISlider>
+					<CCUISlider label="noise octaves">
+						<preset value="4"/>
+					</CCUISlider>
+					<CCUISlider label="noise gain">
+						<preset value="0.50200003"/>
+					</CCUISlider>
+					<CCUISlider label="noise lacunarity">
+						<preset value="1.99"/>
+					</CCUISlider>
+					<CCUISlider label="alphaReduction">
+						<preset value="0.4"/>
+					</CCUISlider>
+					<CCUISlider label="march step">
+						<preset value="0.054"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+</ui>
