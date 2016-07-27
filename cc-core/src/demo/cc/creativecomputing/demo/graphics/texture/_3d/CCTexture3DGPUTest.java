@@ -34,7 +34,7 @@ public class CCTexture3DGPUTest extends CCApp {
 	
 	private CCArcball _myArcball;
 	
-	private String _myFolder = "videos/crash/";
+	private String _myFolder = "demo/videos/crash/";
 	
 	private CCCGShader _myNoiseShader;
 	private CGparameter _myNoiseScaleParameter;

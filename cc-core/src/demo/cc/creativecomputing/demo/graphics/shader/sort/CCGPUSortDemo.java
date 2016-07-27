@@ -23,6 +23,7 @@ import cc.creativecomputing.graphics.texture.CCTexture.CCTextureFilter;
 import cc.creativecomputing.graphics.texture.CCTexture.CCTextureTarget;
 import cc.creativecomputing.graphics.texture.CCTexture2D;
 import cc.creativecomputing.graphics.texture.CCTextureAttributes;
+import cc.creativecomputing.graphics.texture.CCTextureIO;
 import cc.creativecomputing.graphics.texture.video.CCGStreamerMovie;
 import cc.creativecomputing.graphics.texture.video.CCVideoTexture;
 import cc.creativecomputing.io.CCIOUtil;
@@ -63,12 +64,12 @@ public class CCGPUSortDemo extends CCApp {
 		CCGraphics.debug();
 		addControls("app", "app", this);
 		
-//		_myTexture = new CCTexture2D(CCTextureIO.newTextureData("demo/textures/02.jpg"), CCTextureTarget.TEXTURE_RECT);
-//		_myTexture.textureFilter(CCTextureFilter.NEAREST);
+		_myTexture = new CCTexture2D(CCTextureIO.newTextureData("demo/textures/waltz.jpg"), CCTextureTarget.TEXTURE_RECT);
+		_myTexture.textureFilter(CCTextureFilter.NEAREST);
 //		
 		
-		_myData = new CCGStreamerMovie(this, CCIOUtil.dataPath("videos/chris_bryan_films_phantom_reel_1280x720.mp4"));//
-		_myData.loop();
+//		_myData = new CCGStreamerMovie(this, CCIOUtil.dataPath("videos/chris_bryan_films_phantom_reel_1280x720.mp4"));//
+//		_myData.loop();
 //		_myData.rate(theSpeed);
 		
 //		System.out.println(_myData.width() + ":"+_myData.height());
@@ -80,8 +81,8 @@ public class CCGPUSortDemo extends CCApp {
 //		_myData = new CCGStreamerCapture(this, 640, 480, 30);
 //		_myData.start();
 		
-		_myTexture = new CCVideoTexture<CCGStreamerMovie>(_myData, CCTextureTarget.TEXTURE_RECT, new CCTextureAttributes());
-		_myTexture.textureFilter(CCTextureFilter.NEAREST);
+//		_myTexture = new CCVideoTexture<CCGStreamerMovie>(_myData, CCTextureTarget.TEXTURE_RECT, new CCTextureAttributes());
+//		_myTexture.textureFilter(CCTextureFilter.NEAREST);
 		
 		_mySortHoriShader = new CCGLSLShader(
 			CCIOUtil.classPath(this, "sort_vp.glsl"), 
@@ -148,7 +149,7 @@ public class CCGPUSortDemo extends CCApp {
 	@Override
 	public void update(float theDeltaTime) {
 
-		_myTexture.data(_myData);
+//		_myTexture.data(_myData);
 		
 		g.texture(0,_myTexture);
 		g.texture(1,_myShaderTexture.attachment(0));
@@ -269,7 +270,7 @@ public class CCGPUSortDemo extends CCApp {
 
 	public static void main(String[] args) {
 		CCApplicationManager myManager = new CCApplicationManager(CCGPUSortDemo.class);
-		myManager.settings().size(1200, 720);
+		myManager.settings().size(1920, 1000);
 		myManager.settings().antialiasing(8);
 //		myManager.settings().frameRate(2);
 		myManager.start();

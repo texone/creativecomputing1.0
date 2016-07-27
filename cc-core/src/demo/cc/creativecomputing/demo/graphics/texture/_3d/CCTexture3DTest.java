@@ -28,7 +28,7 @@ public class CCTexture3DTest extends CCApp {
 	
 	private CCArcball _myArcball;
 	
-	private String _myFolder = "videos/crash/";
+	private String _myFolder = "demo/videos/crash/";
 
 	@Override
 	public void setup() {

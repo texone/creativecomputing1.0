@@ -35,7 +35,7 @@ public class CCTexture3DNoiseTest extends CCApp {
 	@CCControl (name = "noise scale", min = 0, max = 1)
 	private float _cNoiseScale = 1;
 	
-	private String myFolder = "videos/crash/";
+	private String myFolder = "demo/videos/crash/";
 
 	@Override
 	public void setup() {
