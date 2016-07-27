@@ -24,6 +24,7 @@ import static org.bytedeco.javacpp.avutil.av_frame_alloc;
 import static org.bytedeco.javacpp.avutil.av_frame_get_best_effort_timestamp;
 import static org.bytedeco.javacpp.avutil.av_free;
 import static org.bytedeco.javacpp.avutil.av_malloc;
+import static org.bytedeco.javacpp.avutil.av_image_get_buffer_size;
 import static org.bytedeco.javacpp.swscale.SWS_BILINEAR;
 import static org.bytedeco.javacpp.swscale.sws_getContext;
 import static org.bytedeco.javacpp.swscale.sws_scale;
