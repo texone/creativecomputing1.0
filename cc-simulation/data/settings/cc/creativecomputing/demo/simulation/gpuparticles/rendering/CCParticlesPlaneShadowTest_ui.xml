@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="app" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="app">
+				<uielements>
+					<CCUISlider label="pointsize">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="alpha">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="shadow alpha">
+						<preset value="0.26"/>
+					</CCUISlider>
+					<CCUISlider label="light x">
+						<preset value="-53.333313"/>
+					</CCUISlider>
+					<CCUISlider label="light y">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="light z">
+						<preset value="413.33325"/>
+					</CCUISlider>
+					<CCUISlider label="normal x">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="normal y">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="normal z">
+						<preset value="-1.0"/>
+					</CCUISlider>
+					<CCUISlider label="planeconstant ">
+						<preset value="1000.0"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+</ui>

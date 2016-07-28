@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="app" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="app">
+				<uielements>
+					<CCUISlider label="spring strength">
+						<preset value="0.32"/>
+					</CCUISlider>
+					<CCUISlider label="spring constant">
+						<preset value="0.24"/>
+					</CCUISlider>
+					<CCUISlider label="spring damping">
+						<preset value="0.10666667"/>
+					</CCUISlider>
+					<CCUISlider label="max spring length">
+						<preset value="92.0"/>
+					</CCUISlider>
+					<CCUISlider label="viscous drag">
+						<preset value="4.0"/>
+					</CCUISlider>
+					<CCUISlider label="noise strength">
+						<preset value="5.6666665"/>
+					</CCUISlider>
+					<CCUISlider label="attractor strength">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="attractor radius">
+						<preset value="218.0"/>
+					</CCUISlider>
+					<CCUISlider label="gravity strength">
+						<preset value="0.64"/>
+					</CCUISlider>
+					<CCUISlider label="curve strength">
+						<preset value="10.0"/>
+					</CCUISlider>
+					<CCUISlider label="noise speed">
+						<preset value="0.046666667"/>
+					</CCUISlider>
+					<CCUISlider label="prediction">
+						<preset value="0.25333333"/>
+					</CCUISlider>
+					<CCUISlider label="curveNoiseScale">
+						<preset value="0.16666667"/>
+					</CCUISlider>
+					<CCUISlider label="curveOutputScale">
+						<preset value="166.66666"/>
+					</CCUISlider>
+					<CCUISlider label="curveRadius">
+						<preset value="205.33333"/>
+					</CCUISlider>
+					<CCUISlider label="emit radius">
+						<preset value="136.0"/>
+					</CCUISlider>
+					<CCUISlider label="emit amount">
+						<preset value="1"/>
+					</CCUISlider>
+					<CCUISlider label="life time">
+						<preset value="4.0"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<CCControlPresetTab label="stopwatch" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="stopwatch">
+				<uielements>
+					<CCUIButton label="active">
+						<preset value="true"/>
+					</CCUIButton>
+					<CCUISlider label="width">
+						<preset value="0.3"/>
+					</CCUISlider>
+					<CCUISlider label="height">
+						<preset value="0.49333334"/>
+					</CCUISlider>
+					<CCUISlider label="scale">
+						<preset value="20.0"/>
+					</CCUISlider>
+					<CCUISlider label="samples">
+						<preset value="50"/>
+					</CCUISlider>
+					<CCUIButton label="pause">
+						<preset value="false"/>
+					</CCUIButton>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+</ui>

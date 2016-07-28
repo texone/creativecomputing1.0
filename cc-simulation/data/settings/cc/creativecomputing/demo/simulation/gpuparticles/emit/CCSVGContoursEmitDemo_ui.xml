@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="app" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="app">
+				<uielements>
+					<CCUISlider label="life time">
+						<preset value="9.4"/>
+					</CCUISlider>
+					<CCUISlider label="emit amount">
+						<preset value="33.333336"/>
+					</CCUISlider>
+					<CCUISlider label="follow speed">
+						<preset value="0.06666667"/>
+					</CCUISlider>
+					<CCUISlider label="init vel">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="random vel">
+						<preset value="10.0"/>
+					</CCUISlider>
+					<CCUISlider label="random pos">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="gx">
+						<preset value="-0.5466666"/>
+					</CCUISlider>
+					<CCUISlider label="gy">
+						<preset value="-0.44"/>
+					</CCUISlider>
+					<CCUISlider label="gz">
+						<preset value="-0.44"/>
+					</CCUISlider>
+					<CCUISlider label="g strength">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="alpha">
+						<preset value="0.23333333"/>
+					</CCUISlider>
+					<CCUISlider label="n scale">
+						<preset value="0.033333335"/>
+					</CCUISlider>
+					<CCUISlider label="n strength">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="n speed">
+						<preset value="0.14"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+</ui>

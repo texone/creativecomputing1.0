@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="texture force blend" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="texture force blend">
+				<uielements>
+					<CCUISlider label="scale x">
+						<preset value="1.0899999"/>
+					</CCUISlider>
+					<CCUISlider label="scale y">
+						<preset value="1.0899999"/>
+					</CCUISlider>
+					<CCUISlider label="offset x">
+						<preset value="-300.0"/>
+					</CCUISlider>
+					<CCUISlider label="offset y">
+						<preset value="-150.66663"/>
+					</CCUISlider>
+					<CCUISlider label="force scale">
+						<preset value="1.8666667"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<CCControlPresetTab label="texture force field" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="texture force field">
+				<uielements>
+					<CCUISlider label="scale x">
+						<preset value="1.0239999"/>
+					</CCUISlider>
+					<CCUISlider label="scale y">
+						<preset value="1.0239999"/>
+					</CCUISlider>
+					<CCUISlider label="offset x">
+						<preset value="-306.6667"/>
+					</CCUISlider>
+					<CCUISlider label="offset y">
+						<preset value="-146.66663"/>
+					</CCUISlider>
+					<CCUISlider label="force scale">
+						<preset value="5.2"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+</ui>

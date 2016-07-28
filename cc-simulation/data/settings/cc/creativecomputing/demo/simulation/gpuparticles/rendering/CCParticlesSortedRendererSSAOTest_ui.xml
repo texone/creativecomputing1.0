@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="ssao" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="ssao">
+				<uielements>
+					<CCUISlider label="sample radius">
+						<preset value="8.933333"/>
+					</CCUISlider>
+					<CCUISlider label="intensity">
+						<preset value="8.266666"/>
+					</CCUISlider>
+					<CCUISlider label="scale">
+						<preset value="0.22"/>
+					</CCUISlider>
+					<CCUISlider label="bias">
+						<preset value="0.21333334"/>
+					</CCUISlider>
+					<CCUISlider label="jitter">
+						<preset value="39.333336"/>
+					</CCUISlider>
+					<CCUISlider label="self occlusion">
+						<preset value="0.0"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<CCControlPresetTab label="app" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="app">
+				<uielements>
+					<CCUISlider label="pointsize">
+						<preset value="3.58"/>
+					</CCUISlider>
+					<CCUISlider label="alpha">
+						<preset value="0.48"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="cam">
+				<uielements>
+					<CCUISlider label="pointsize">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="alpha">
+						<preset value="0.0"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+</ui>

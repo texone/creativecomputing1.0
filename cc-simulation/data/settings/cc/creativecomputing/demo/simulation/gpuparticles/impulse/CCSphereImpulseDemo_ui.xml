@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="app" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="app">
+				<uielements>
+					<CCUISlider label="gravity">
+						<preset value="0.88"/>
+					</CCUISlider>
+					<CCUISlider label="noise scale">
+						<preset value="0.0025999998"/>
+					</CCUISlider>
+					<CCUISlider label="sphere impulse strength">
+						<preset value="7.133333"/>
+					</CCUISlider>
+					<CCUISlider label="sphere impulse y">
+						<preset value="-86.66669"/>
+					</CCUISlider>
+					<CCUISlider label="sphere impulse radius">
+						<preset value="196.66667"/>
+					</CCUISlider>
+					<CCUISlider label="sphere impulse timer">
+						<preset value="2.2"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+</ui>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+	<CCControlPresetTab label="force" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="force">
+				<uielements>
+					<CCUISlider label="scale x">
+						<preset value="3.5979996"/>
+					</CCUISlider>
+					<CCUISlider label="scale y">
+						<preset value="6.7"/>
+					</CCUISlider>
+					<CCUISlider label="offset x">
+						<preset value="293.33325"/>
+					</CCUISlider>
+					<CCUISlider label="offset y">
+						<preset value="760.0"/>
+					</CCUISlider>
+					<CCUISlider label="force scale">
+						<preset value="3.1999998"/>
+					</CCUISlider>
+					<CCUISlider label="alpha">
+						<preset value="0.19333333"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+</ui>

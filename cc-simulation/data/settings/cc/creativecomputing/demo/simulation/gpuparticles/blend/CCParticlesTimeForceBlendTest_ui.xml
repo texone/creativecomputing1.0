@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="app" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="app">
+				<uielements>
+					<CCUISlider label="target strength">
+						<preset value="0.10666667"/>
+					</CCUISlider>
+					<CCUISlider label="target lookahead">
+						<preset value="4.733333"/>
+					</CCUISlider>
+					<CCUISlider label="target max force">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="target near distance">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="target near max force">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="look up look ahead">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="point size">
+						<preset value="5"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+</ui>

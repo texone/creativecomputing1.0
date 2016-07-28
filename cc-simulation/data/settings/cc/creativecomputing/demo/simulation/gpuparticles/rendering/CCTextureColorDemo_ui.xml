@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="app" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="app">
+				<uielements>
+					<CCUISlider label="life time">
+						<preset value="6.333333"/>
+					</CCUISlider>
+					<CCUISlider label="emit amount">
+						<preset value="7266.667"/>
+					</CCUISlider>
+					<CCUISlider label="init vel">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="random vel">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="random pos">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="color pos">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="gx">
+						<preset value="0.2933333"/>
+					</CCUISlider>
+					<CCUISlider label="gy">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="ix">
+						<preset value="-373.3333"/>
+					</CCUISlider>
+					<CCUISlider label="iy">
+						<preset value="-400.0"/>
+					</CCUISlider>
+					<CCUISlider label="i alpha">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="b thresh">
+						<preset value="0.6066667"/>
+					</CCUISlider>
+					<CCUISlider label="gz">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="g strength">
+						<preset value="0.19333333"/>
+					</CCUISlider>
+					<CCUISlider label="attractor strength">
+						<preset value="0.1333332"/>
+					</CCUISlider>
+					<CCUISlider label="attractor radius">
+						<preset value="64.0"/>
+					</CCUISlider>
+					<CCUISlider label="alpha">
+						<preset value="0.58666664"/>
+					</CCUISlider>
+					<CCUISlider label="trace">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="trace change">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="n scale">
+						<preset value="0.04"/>
+					</CCUISlider>
+					<CCUISlider label="n strength">
+						<preset value="0.29333332"/>
+					</CCUISlider>
+					<CCUISlider label="n speed">
+						<preset value="0.62"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+</ui>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="app" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="app">
+				<uielements>
+					<CCUISlider label="texture alpha">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="force scale">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="area force scale">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="contour force scale">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="contourWeight">
+						<preset value="18.8"/>
+					</CCUISlider>
+					<CCUISlider label="noiseSpeed">
+						<preset value="0.04"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+</ui>

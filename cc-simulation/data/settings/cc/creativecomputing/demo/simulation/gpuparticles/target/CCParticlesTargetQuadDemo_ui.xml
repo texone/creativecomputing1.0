@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="app" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="app">
+				<uielements>
+					<CCUISlider label="gravity x">
+						<preset value="-1.0"/>
+					</CCUISlider>
+					<CCUISlider label="gravity y">
+						<preset value="-1.0"/>
+					</CCUISlider>
+					<CCUISlider label="gravity z">
+						<preset value="-1.0"/>
+					</CCUISlider>
+					<CCUISlider label="gravity strength">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="target strength">
+						<preset value="1.2666667"/>
+					</CCUISlider>
+					<CCUISlider label="target lookahead">
+						<preset value="2.5333333"/>
+					</CCUISlider>
+					<CCUISlider label="target max force">
+						<preset value="3.4"/>
+					</CCUISlider>
+					<CCUISlider label="target near distance">
+						<preset value="82.666664"/>
+					</CCUISlider>
+					<CCUISlider label="target near max force">
+						<preset value="0.13333334"/>
+					</CCUISlider>
+					<CCUISlider label="drag">
+						<preset value="0.23333333"/>
+					</CCUISlider>
+					<CCUISlider label="noise speed">
+						<preset value="0.046666667"/>
+					</CCUISlider>
+					<CCUISlider label="noise strength">
+						<preset value="1.6666667"/>
+					</CCUISlider>
+					<CCUISlider label="noise scale">
+						<preset value="0.006666667"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+</ui>

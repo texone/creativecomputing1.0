@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="app" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="app">
+				<uielements>
+					<CCUISlider label="spring strength">
+						<preset value="0.85333335"/>
+					</CCUISlider>
+					<CCUISlider label="noise strength">
+						<preset value="0.8666667"/>
+					</CCUISlider>
+					<CCUISlider label="attractor strength">
+						<preset value="-10.0"/>
+					</CCUISlider>
+					<CCUISlider label="attractor radius">
+						<preset value="218.0"/>
+					</CCUISlider>
+					<CCUISlider label="gravity strength">
+						<preset value="0.3"/>
+					</CCUISlider>
+					<CCUISlider label="curve strength">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="noise speed">
+						<preset value="0.046666667"/>
+					</CCUISlider>
+					<CCUISlider label="prediction">
+						<preset value="0.25333333"/>
+					</CCUISlider>
+					<CCUISlider label="curveNoiseScale">
+						<preset value="0.53333336"/>
+					</CCUISlider>
+					<CCUISlider label="curveOutputScale">
+						<preset value="74.666664"/>
+					</CCUISlider>
+					<CCUISlider label="curveRadius">
+						<preset value="400.0"/>
+					</CCUISlider>
+					<CCUISlider label="emit radius">
+						<preset value="152.0"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="point">
+				<uielements/>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+</ui>

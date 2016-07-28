@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="app" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="app">
+				<uielements>
+					<CCUISlider label="emit particles">
+						<preset value="30"/>
+					</CCUISlider>
+					<CCUISlider label="point size">
+						<preset value="26"/>
+					</CCUISlider>
+					<CCUISlider label="gravity">
+						<preset value="1.0666667"/>
+					</CCUISlider>
+					<CCUISlider label="force field">
+						<preset value="1.2666667"/>
+					</CCUISlider>
+					<CCUISlider label="alpha">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUIDropDown label="blend src factor">
+						<preset value="SRC_ALPHA"/>
+					</CCUIDropDown>
+					<CCUIDropDown label="blend dst factor">
+						<preset value="ONE"/>
+					</CCUIDropDown>
+					<CCUIDropDown label="blend equation">
+						<preset value="ADD"/>
+					</CCUIDropDown>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+</ui>

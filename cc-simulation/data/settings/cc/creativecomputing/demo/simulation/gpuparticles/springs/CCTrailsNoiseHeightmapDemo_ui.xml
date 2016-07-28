@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab numberofpresets="1" label="app" selectedpreset="0">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="app">
+				<uielements>
+					<CCUISlider label="noise scale">
+						<preset value="0.0040666666"/>
+					</CCUISlider>
+					<CCUISlider label="noise speedx">
+						<preset value="0.0031333333"/>
+					</CCUISlider>
+					<CCUISlider label="noise speedz">
+						<preset value="0.0018666666"/>
+					</CCUISlider>
+					<CCUISlider label="noise strength">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="gravity">
+						<preset value="0.55333334"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings label="global" numberofpresets="0" selectedpreset="0">
+		<presetnames/>
+	</globalsettings>
+</ui>

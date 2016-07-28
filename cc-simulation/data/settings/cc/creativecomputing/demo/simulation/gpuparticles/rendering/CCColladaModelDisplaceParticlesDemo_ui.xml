@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="app" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="position">
+				<uielements>
+					<CCUISlider label="time">
+						<preset value="0.8173334"/>
+					</CCUISlider>
+					<CCUISlider label="x">
+						<preset value="-386.66663"/>
+					</CCUISlider>
+					<CCUISlider label="y">
+						<preset value="-133.33331"/>
+					</CCUISlider>
+					<CCUISlider label="z">
+						<preset value="440.0"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="targets">
+				<uielements/>
+			</CCUIComponent>
+			<CCUIComponent label="particles">
+				<uielements>
+					<CCUISlider label="target force">
+						<preset value="2.0"/>
+					</CCUISlider>
+					<CCUISlider label="target lookahead">
+						<preset value="10.0"/>
+					</CCUISlider>
+					<CCUISlider label="target max force">
+						<preset value="10.0"/>
+					</CCUISlider>
+					<CCUISlider label="target near max force">
+						<preset value="0.46666667"/>
+					</CCUISlider>
+					<CCUISlider label="target near distance">
+						<preset value="19.333332"/>
+					</CCUISlider>
+					<CCUISlider label="gravity">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="noise force">
+						<preset value="1.5466666"/>
+					</CCUISlider>
+					<CCUISlider label="noise speed">
+						<preset value="0.5"/>
+					</CCUISlider>
+					<CCUISlider label="noise scale">
+						<preset value="1.7333333"/>
+					</CCUISlider>
+					<CCUISlider label="point size">
+						<preset value="1"/>
+					</CCUISlider>
+					<CCUISlider label="floor y">
+						<preset value="-560.0"/>
+					</CCUISlider>
+					<CCUISlider label="floor resilience">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="floor friction">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="min Velocity">
+						<preset value="0.28"/>
+					</CCUISlider>
+					<CCUISlider label="blend target force">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="blend pow">
+						<preset value="0.1"/>
+					</CCUISlider>
+					<CCUISlider label="gradient range">
+						<preset value="0.26"/>
+					</CCUISlider>
+					<CCUISlider label="gradient blend">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="static blend">
+						<preset value="0.36"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+</ui>

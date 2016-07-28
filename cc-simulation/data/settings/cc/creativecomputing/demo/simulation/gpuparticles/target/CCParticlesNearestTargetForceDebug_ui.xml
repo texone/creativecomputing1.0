@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="app" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="app">
+				<uielements>
+					<CCUISlider label="texture offset x">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="texture offset y">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="scale x">
+						<preset value="2.4139998"/>
+					</CCUISlider>
+					<CCUISlider label="scale y">
+						<preset value="2.544"/>
+					</CCUISlider>
+					<CCUISlider label="blend">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="lookAhead">
+						<preset value="1.0"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+</ui>

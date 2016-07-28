@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="emit" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="emit">
+				<uielements>
+					<CCUISlider label="velocity factor">
+						<preset value="-0.04000002"/>
+					</CCUISlider>
+					<CCUISlider label="lifetime factor">
+						<preset value="0.39333335"/>
+					</CCUISlider>
+					<CCUISlider label="brightness factor">
+						<preset value="0.8666667"/>
+					</CCUISlider>
+					<CCUISlider label="probability">
+						<preset value="0.026666667"/>
+					</CCUISlider>
+					<CCUISlider label="initial speed">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="particle lifetime">
+						<preset value="4.3999996"/>
+					</CCUISlider>
+					<CCUISlider label="particle lifetime variance">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUIButton label="invert">
+						<preset value="false"/>
+					</CCUIButton>
+					<CCUISlider label="emit density threshold">
+						<preset value="0.0"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<CCControlPresetTab label="app" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="app">
+				<uielements>
+					<CCUISlider label="_cTargetStrength">
+						<preset value="0.43333334"/>
+					</CCUISlider>
+					<CCUISlider label="_cLookAhead">
+						<preset value="95.33333"/>
+					</CCUISlider>
+					<CCUISlider label="_cMaxForce">
+						<preset value="8.066667"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+</ui>

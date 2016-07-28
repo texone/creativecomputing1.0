@@ -40,6 +40,8 @@ public class CCMosaicTriangleMeshDemo extends CCApp {
 	private int _cTextureIndex = 0;
 	
 	private List<CCTexture2D> _myTextures = new ArrayList<CCTexture2D>();
+	
+	private static int TEX_WIDTH = 4400;
 
 	@Override
 	public void setup() {
@@ -141,7 +143,7 @@ public class CCMosaicTriangleMeshDemo extends CCApp {
 //		g.image(_myTriangleManager.forceField().texture(), -_myVisual.heightMap().width()/2,-_myVisual.heightMap().height()/2);
 //		g.image(_myParticleTriangleMesh.forceBlendTexture(),0,0);
 		g.blend();
-		CCScreenCapture.capture("export/disney/fract"+CCFormatUtil.nf(frameCount, 4)+".png",width,height);
+//		CCScreenCapture.capture("export/disney/fract"+CCFormatUtil.nf(frameCount, 4)+".png",width,height);
 //		g.image(_myTextureVisual.renderTexture(), 0,0);
 	}
 	
@@ -161,7 +163,7 @@ public class CCMosaicTriangleMeshDemo extends CCApp {
 
 	public static void main(String[] args) {
 		CCApplicationManager myManager = new CCApplicationManager(CCMosaicTriangleMeshDemo.class);
-		myManager.settings().size(1200, 800);
+		myManager.settings().size(4400, 800);
 		myManager.settings().antialiasing(8);
 		myManager.settings().fov(20);
 		myManager.start();

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="app" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="app">
+				<uielements>
+					<CCUISlider label="center x">
+						<preset value="280.0"/>
+					</CCUISlider>
+					<CCUISlider label="center y">
+						<preset value="-213.33331"/>
+					</CCUISlider>
+					<CCUISlider label="open speed">
+						<preset value="244.0"/>
+					</CCUISlider>
+					<CCUISlider label="start radius">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="radius range">
+						<preset value="1000.0"/>
+					</CCUISlider>
+					<CCUISlider label="particle perimeter density">
+						<preset value="0.118"/>
+					</CCUISlider>
+					<CCUISlider label="n scale">
+						<preset value="0.013333334"/>
+					</CCUISlider>
+					<CCUISlider label="n strength">
+						<preset value="0.68666667"/>
+					</CCUISlider>
+					<CCUISlider label="n speed">
+						<preset value="1.12"/>
+					</CCUISlider>
+					<CCUISlider label="emit random">
+						<preset value="19.333332"/>
+					</CCUISlider>
+					<CCUISlider label="emit velocity rand">
+						<preset value="23.333334"/>
+					</CCUISlider>
+					<CCUISlider label="emit start velocity">
+						<preset value="0.1333332"/>
+					</CCUISlider>
+					<CCUISlider label="life time">
+						<preset value="16.0"/>
+					</CCUISlider>
+					<CCUISlider label="target x">
+						<preset value="-426.6667"/>
+					</CCUISlider>
+					<CCUISlider label="target y">
+						<preset value="-106.66669"/>
+					</CCUISlider>
+					<CCUISlider label="emit target look ahead">
+						<preset value="2.7333333"/>
+					</CCUISlider>
+					<CCUISlider label="target strength">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="target lookahead">
+						<preset value="10.0"/>
+					</CCUISlider>
+					<CCUISlider label="target max force">
+						<preset value="0.26666668"/>
+					</CCUISlider>
+					<CCUISlider label="target near distance">
+						<preset value="17.333334"/>
+					</CCUISlider>
+					<CCUISlider label="target near max force">
+						<preset value="1.0666667"/>
+					</CCUISlider>
+					<CCUISlider label="gx">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="gy">
+						<preset value="-1.0"/>
+					</CCUISlider>
+					<CCUISlider label="gz">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="g strength">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="alpha">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="life time Blend pow">
+						<preset value="0.39999998"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+</ui>

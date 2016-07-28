@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="app" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="app">
+				<uielements>
+					<CCUISlider label="noise scale">
+						<preset value="0.007733333"/>
+					</CCUISlider>
+					<CCUISlider label="noise speed">
+						<preset value="0.0036666666"/>
+					</CCUISlider>
+					<CCUISlider label="noise strength">
+						<preset value="3.04"/>
+					</CCUISlider>
+					<CCUISlider label="spring strength">
+						<preset value="0.7733333"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+	<CCControlPresetTab label="debug" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="debug">
+				<uielements>
+					<CCUIButton label="draw positions">
+						<preset value="false"/>
+					</CCUIButton>
+					<CCUISlider label="scale positions">
+						<preset value="626.6667"/>
+					</CCUISlider>
+					<CCUISlider label="scale springs">
+						<preset value="0.0"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+</ui>

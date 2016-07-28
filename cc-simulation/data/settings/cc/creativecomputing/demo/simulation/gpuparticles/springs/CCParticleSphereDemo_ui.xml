@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab numberofpresets="1" label="app" selectedpreset="0">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="app">
+				<uielements>
+					<CCUISlider label="red">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="green">
+						<preset value="0.48"/>
+					</CCUISlider>
+					<CCUISlider label="blue">
+						<preset value="0.52"/>
+					</CCUISlider>
+					<CCUISlider label="ambient red">
+						<preset value="0.12"/>
+					</CCUISlider>
+					<CCUISlider label="ambient green">
+						<preset value="0.30666667"/>
+					</CCUISlider>
+					<CCUISlider label="ambient blue">
+						<preset value="0.32666665"/>
+					</CCUISlider>
+					<CCUISlider label="x">
+						<preset value="0.8133334"/>
+					</CCUISlider>
+					<CCUISlider label="y">
+						<preset value="-0.013333321"/>
+					</CCUISlider>
+					<CCUISlider label="z">
+						<preset value="-0.22666669"/>
+					</CCUISlider>
+					<CCUISlider label="spring strength">
+						<preset value="0.026666667"/>
+					</CCUISlider>
+					<CCUISlider label="spring damping">
+						<preset value="0.68666667"/>
+					</CCUISlider>
+					<CCUISlider label="spring strength 2">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="spring damping 2">
+						<preset value="0.68666667"/>
+					</CCUISlider>
+					<CCUISlider label="noise strength">
+						<preset value="0.74666667"/>
+					</CCUISlider>
+					<CCUISlider label="noise scale">
+						<preset value="0.28"/>
+					</CCUISlider>
+					<CCUISlider label="noise speed">
+						<preset value="0.22666667"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings label="global" numberofpresets="0" selectedpreset="0">
+		<presetnames/>
+	</globalsettings>
+</ui>

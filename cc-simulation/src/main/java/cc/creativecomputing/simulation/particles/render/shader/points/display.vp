@@ -1,0 +1,39 @@
+uniform float4x4 modelViewProjection : state.matrix.mvp;
+uniform float4x4 modelView : state.matrix.modelview[0];
+
+uniform float _uPointSize;
+uniform float tanHalfFov;
+
+void main (
+	in float4 iPosition : POSITION,
+	in float2 iTexCoord : TEXCOORD0,
+	in float4 iColor : COLOR0,
+	out float4 oPosition : POSITION,
+	out float2 oTexCoord : TEXCOORD0,
+	out float oPointSize : PSIZ,
+	out float4 oColor : COLOR0
+){
+	oPosition = mul(modelViewProjection,iPosition);
+	oTexCoord = iTexCoord;
+	
+	float4 posViewSpace = mul(modelView, iPosition);
+	//oPointSize = clamp(pointSize * tanHalfFov / -oPosition.z, minPointSize, maxPointSize);
+	// Compute point size.
+	
+	//const float fieldOfView = radians(60.0);
+	//pointSize = 50 * tan(fieldOfView / 2) / -posViewSpace.z;
+	
+	float myPointSize = tanHalfFov / -posViewSpace.z * _uPointSize;
+
+	// Do fake antialiasing if point size is below 1.	
+	/*o.Color = color;
+	o.PointSize = pointSize;
+	if (pointSize < 1)
+	{
+		o.Color = color * pointSize; /// BUG: Squared!
+		o.PointSize = 1;
+	}*/
+	oColor = iColor;//min(iColor * myPointSize * myPointSize, iColor);
+	oPointSize = max(myPointSize, 1);
+}
+	           

@@ -55,7 +55,7 @@ public class CCGPUWaterRippleTest extends CCApp {
 
 		// _myRippleTexone = CCTextureIO.newTexture("effects/ripple_tex.png");
 		_myWaterRipple = new CCGPUWaterRipple(g, null, width, height);
-		_myWaterRipple.backgroundTexture(new CCTexture2D(CCTextureIO.newTextureData("demo/textures/kristall-7.png"), CCTextureTarget.TEXTURE_RECT));
+		_myWaterRipple.backgroundTexture(new CCTexture2D(CCTextureIO.newTextureData("demo/textures/waltz.jpg"), CCTextureTarget.TEXTURE_RECT));
 		g.imageMode(CCShapeMode.CENTER);
 	}
 

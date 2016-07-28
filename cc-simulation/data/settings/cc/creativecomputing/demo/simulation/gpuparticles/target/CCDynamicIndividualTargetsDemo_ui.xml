@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="background" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="background">
+				<uielements>
+					<CCUISlider label="open speed">
+						<preset value="86.666664"/>
+					</CCUISlider>
+					<CCUISlider label="start velocity">
+						<preset value="0.9333334"/>
+					</CCUISlider>
+					<CCUISlider label="start radius">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="radius range">
+						<preset value="1000.0"/>
+					</CCUISlider>
+					<CCUISlider label="particle perimeter density">
+						<preset value="1.0286666"/>
+					</CCUISlider>
+					<CCUISlider label="drag">
+						<preset value="0.28666666"/>
+					</CCUISlider>
+					<CCUISlider label="target strength">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="target lookahead">
+						<preset value="10.0"/>
+					</CCUISlider>
+					<CCUISlider label="target max force">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="target near distance">
+						<preset value="16.0"/>
+					</CCUISlider>
+					<CCUISlider label="target near max force">
+						<preset value="0.33333334"/>
+					</CCUISlider>
+					<CCUISlider label="look up look ahead">
+						<preset value="1.7333333"/>
+					</CCUISlider>
+					<CCUISlider label="life time Blend pow">
+						<preset value="0.19999999"/>
+					</CCUISlider>
+					<CCUISlider label="n scale">
+						<preset value="0.04"/>
+					</CCUISlider>
+					<CCUISlider label="n strength">
+						<preset value="0.46666667"/>
+					</CCUISlider>
+					<CCUISlider label="n speed">
+						<preset value="0.56"/>
+					</CCUISlider>
+					<CCUISlider label="emit x">
+						<preset value="13.333313"/>
+					</CCUISlider>
+					<CCUISlider label="emit y">
+						<preset value="-80.0"/>
+					</CCUISlider>
+					<CCUISlider label="emit random">
+						<preset value="14.0"/>
+					</CCUISlider>
+					<CCUISlider label="emit velocity rand">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="target x">
+						<preset value="-240.0"/>
+					</CCUISlider>
+					<CCUISlider label="target y">
+						<preset value="26.666626"/>
+					</CCUISlider>
+					<CCUISlider label="emit target look ahead">
+						<preset value="0.90000004"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+</ui>

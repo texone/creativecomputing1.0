@@ -8,38 +8,41 @@
 			<CCUIComponent label="noise">
 				<uielements>
 					<CCUISlider label="octaves">
-						<preset value="4"/>
+						<preset value="5"/>
 					</CCUISlider>
 					<CCUISlider label="gain">
-						<preset value="0.68666667"/>
+						<preset value="0.5733333"/>
 					</CCUISlider>
 					<CCUISlider label="lacunarity">
 						<preset value="2.0"/>
 					</CCUISlider>
 					<CCUISlider label="speed x">
-						<preset value="0.0"/>
+						<preset value="0.026666641"/>
 					</CCUISlider>
 					<CCUISlider label="speed y">
-						<preset value="0.2666664"/>
+						<preset value="0.0"/>
 					</CCUISlider>
 					<CCUISlider label="speed z">
-						<preset value="-0.1333332"/>
+						<preset value="0.120000005"/>
 					</CCUISlider>
 					<CCUISlider label="speed gain">
-						<preset value="2.0"/>
+						<preset value="0.58666664"/>
 					</CCUISlider>
 				</uielements>
 			</CCUIComponent>
 			<CCUIComponent label="density0">
 				<uielements>
 					<CCUISlider label="r">
-						<preset value="1.0"/>
+						<preset value="0.7866667"/>
 					</CCUISlider>
 					<CCUISlider label="g">
-						<preset value="0.9"/>
+						<preset value="0.81333333"/>
 					</CCUISlider>
 					<CCUISlider label="b">
-						<preset value="0.8"/>
+						<preset value="0.7866667"/>
+					</CCUISlider>
+					<CCUISlider label="a">
+						<preset value="1.0"/>
 					</CCUISlider>
 					<CCUISlider label="amp">
 						<preset value="1.0"/>
@@ -49,97 +52,82 @@
 			<CCUIComponent label="density1">
 				<uielements>
 					<CCUISlider label="r">
-						<preset value="0.52666664"/>
+						<preset value="1.0"/>
 					</CCUISlider>
 					<CCUISlider label="g">
-						<preset value="0.40666667"/>
+						<preset value="1.0"/>
 					</CCUISlider>
 					<CCUISlider label="b">
-						<preset value="0.34666666"/>
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="a">
+						<preset value="1.0"/>
 					</CCUISlider>
 					<CCUISlider label="amp">
 						<preset value="1.0"/>
 					</CCUISlider>
 				</uielements>
 			</CCUIComponent>
-			<CCUIComponent label="depth0">
+			<CCUIComponent label="back">
 				<uielements>
 					<CCUISlider label="r">
-						<preset value="0.70666665"/>
+						<preset value="0.0"/>
 					</CCUISlider>
 					<CCUISlider label="g">
-						<preset value="0.46"/>
+						<preset value="0.76666665"/>
+					</CCUISlider>
+					<CCUISlider label="b">
+						<preset value="0.88"/>
+					</CCUISlider>
+					<CCUISlider label="a">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="amp">
+						<preset value="0.0"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="back color">
+				<uielements>
+					<CCUISlider label="r">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="g">
+						<preset value="0.0"/>
 					</CCUISlider>
 					<CCUISlider label="b">
 						<preset value="0.0"/>
 					</CCUISlider>
-					<CCUISlider label="amp">
-						<preset value="2.7333333"/>
-					</CCUISlider>
-				</uielements>
-			</CCUIComponent>
-			<CCUIComponent label="depth1">
-				<uielements>
-					<CCUISlider label="r">
-						<preset value="0.55333334"/>
-					</CCUISlider>
-					<CCUISlider label="g">
-						<preset value="0.7133333"/>
-					</CCUISlider>
-					<CCUISlider label="b">
-						<preset value="0.91333336"/>
+					<CCUISlider label="a">
+						<preset value="0.0"/>
 					</CCUISlider>
 					<CCUISlider label="amp">
-						<preset value="1.9666667"/>
+						<preset value="0.0"/>
 					</CCUISlider>
 				</uielements>
 			</CCUIComponent>
 			<CCUIComponent label="app">
 				<uielements>
 					<CCUISlider label="map density start">
-						<preset value="-0.7333331"/>
+						<preset value="0.0"/>
 					</CCUISlider>
 					<CCUISlider label="map density noise amp">
-						<preset value="2.3999999"/>
+						<preset value="1.0"/>
 					</CCUISlider>
 					<CCUISlider label="map density sinus color mod">
-						<preset value="0.06"/>
+						<preset value="0.0"/>
 					</CCUISlider>
 					<CCUISlider label="map density scale">
 						<preset value="0.33333334"/>
 					</CCUISlider>
-					<CCUISlider label="z depth blend">
-						<preset value="0.2733333"/>
-					</CCUISlider>
-					<CCUISlider label="z depth range">
-						<preset value="0.0"/>
-					</CCUISlider>
 					<CCUISlider label="march step size">
-						<preset value="0.033333335"/>
+						<preset value="0.026666667"/>
 					</CCUISlider>
 					<CCUISlider label="march steps">
-						<preset value="21"/>
+						<preset value="30"/>
 					</CCUISlider>
-					<CCUISlider label="mask blend">
+					<CCUISlider label="density shape">
 						<preset value="1.0"/>
-					</CCUISlider>
-					<CCUISlider label="brightness">
-						<preset value="0.59999996"/>
-					</CCUISlider>
-					<CCUISlider label="saturation">
-						<preset value="0.39999998"/>
-					</CCUISlider>
-					<CCUISlider label="contrast">
-						<preset value="4.7999997"/>
-					</CCUISlider>
-					<CCUISlider label="origin x">
-						<preset value="0.0"/>
-					</CCUISlider>
-					<CCUISlider label="origin y">
-						<preset value="0.0"/>
-					</CCUISlider>
-					<CCUISlider label="origin z">
-						<preset value="0.9333334"/>
 					</CCUISlider>
 				</uielements>
 			</CCUIComponent>
