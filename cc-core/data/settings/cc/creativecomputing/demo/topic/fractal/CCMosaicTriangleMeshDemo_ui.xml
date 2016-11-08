@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+	<CCControlPresetTab label="mosaic" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="mosaic">
+				<uielements>
+					<CCUISlider label="texture random">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="texture random add">
+						<preset value="0.11333334"/>
+					</CCUISlider>
+					<CCUISlider label="position random">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUIButton label="use texture random">
+						<preset value="true"/>
+					</CCUIButton>
+					<CCUISlider label="saturation random">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="texture center">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="level">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="level randomness">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="level random blend">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="alpha">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="alpha randomness">
+						<preset value="7.266667"/>
+					</CCUISlider>
+					<CCUISlider label="saturation">
+						<preset value="1.0"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="demo">
+				<uielements/>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+</ui>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="app" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="app">
+				<uielements>
+					<CCUISlider label="damping">
+						<preset value="0.99604005"/>
+					</CCUISlider>
+					<CCUISlider label="splash radius">
+						<preset value="20.0"/>
+					</CCUISlider>
+					<CCUISlider label="splash amplitude">
+						<preset value="0.192"/>
+					</CCUISlider>
+					<CCUISlider label="inner edges strength">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="normal height scale">
+						<preset value="73.33333"/>
+					</CCUISlider>
+					<CCUISlider label="refraction">
+						<preset value="70.0"/>
+					</CCUISlider>
+					<CCUISlider label="blend">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="blend2">
+						<preset value="0.0"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+</ui>
