@@ -363,6 +363,12 @@
       <url>http://jogamp.org/deployment/maven</url>
     </repository>
     <repository>
+        <id>project.local</id>
+        <name>project</name>
+        <url>file:${project.basedir}/repo</url>
+    </repository>
+    <!-- 
+    <repository>
       <id>creativecomputing-builds.googlecode.com</id>
       <url>http://creativecomputing-builds.googlecode.com/svn/m2/releases</url>
     </repository>
@@ -370,5 +376,6 @@
       <id>dep.creativecomputing-builds.googlecode.com</id>
       <url>http://creativecomputing-builds.googlecode.com/svn/m2/dependencies</url>
     </repository>
+     -->
   </repositories>  
 </project>
