@@ -8,7 +8,7 @@
  * Contributors:
  *     christianr - initial API and implementation
  */
-package cc.creativecomputing.demo.topic.fractal;
+package cc.creativecomputing.demo.topic.fractalfrh;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,7 +20,10 @@ import cc.creativecomputing.graphics.CCVBOMesh;
 import cc.creativecomputing.graphics.shader.CCCGShader;
 import cc.creativecomputing.graphics.shader.CCGLSLShader;
 import cc.creativecomputing.graphics.shader.CCShaderBuffer;
+import cc.creativecomputing.graphics.texture.CCTexture.CCTextureTarget;
+import cc.creativecomputing.graphics.texture.CCTexture.CCTextureWrap;
 import cc.creativecomputing.graphics.texture.CCTexture2D;
+import cc.creativecomputing.graphics.texture.CCTextureIO;
 import cc.creativecomputing.io.CCIOUtil;
 import cc.creativecomputing.math.CCMath;
 import cc.creativecomputing.math.CCVector2f;
@@ -33,40 +36,52 @@ import cc.creativecomputing.math.d.CCTriangle2d;
  */
 public class CCMosaicTriangleMesh{
 	
-	@CCControl(name = "texture random", min = 0, max = 1, external = true)
+	@CCControl(name = "texture random", min = 0, max = 1)
 	private float _cTextureRandom = 0;
 	
-	@CCControl(name = "texture random add", min = 0, max = 1, external = true)
+	@CCControl(name = "texture random add", min = 0, max = 1)
 	private float _cTextureRandomAdd = 0;
+	@CCControl(name = "zone random", min = 0, max = 1)
+	private float _cZoneRandom = 0;
 	
-	@CCControl(name = "position random", min = 0, max = 10000, external = true)
+	@CCControl(name = "sineScale", min = 0, max = 0.2f)
+	private  float sineScale = 1;
+	@CCControl(name = "sineSpeed", min = 0, max = 1)
+	private  float sineSpeed;
+	
+	private float _mySineOffset = 0;
+	
+	@CCControl(name = "randomSineBlend", min = 0, max = 1)
+	private  float randomSineBlend;
+	
+	@CCControl(name = "position random", min = 0, max = 10000)
 	private float _cPositionRandom = 0;
 		
-	@CCControl(name = "use texture random", external = true)
+	@CCControl(name = "use texture random")
 	private boolean _cUseTextureRandom = true;
 	
-	@CCControl(name = "saturation random", min = 0, max = 1, external = true)
+	@CCControl(name = "saturation random", min = 0, max = 1)
 	private float _cSaturationRandom = 0;
 	
-	@CCControl(name = "texture center", min = 0, max = 1, external = true)
+	@CCControl(name = "texture center", min = 0, max = 1)
 	private float textureCenter = 0;
 	
-	@CCControl(name = "level", min = 0, max = 6, external = true)
+	@CCControl(name = "level", min = 0, max = 6)
 	private float _cLevel = 0;
 	
-	@CCControl(name = "level randomness", min = 0, max = 1, external = true)
+	@CCControl(name = "level randomness", min = 0, max = 1)
 	private float _cLevelRandomness = 0;
 	
-	@CCControl(name = "level random blend", min = 0, max = 1, external = true)
+	@CCControl(name = "level random blend", min = 0, max = 1)
 	private float _cLevelRandomBlend = 0;
 	
 	@CCControl(name = "alpha", min = 0, max = 1)
 	private float _cAlpha = 0;
 		
-	@CCControl(name = "alpha randomness", min = 0, max = 10, external = true)
+	@CCControl(name = "alpha randomness", min = 0, max = 10)
 	private float _cAlphaRandomness = 0;
 		
-	@CCControl(name = "saturation", min = 0, max = 1, external = true)
+	@CCControl(name = "saturation", min = 0, max = 1)
 	private float _cSaturation = 1;
 	
 	private CCVBOMesh _myMesh;
@@ -87,11 +102,14 @@ public class CCMosaicTriangleMesh{
 	private CCTexture2D _myTexture0;
 	private CCTexture2D _myTexture1;
 	
+	private CCTexture2D _myRandomBlendTexture;
+	
 	private List<CCTriangle2d> _myTriangles = new ArrayList<CCTriangle2d>();
 
 	private CCGLSLShader _myGLSLShader;
 
 	public CCMosaicTriangleMesh(final CCGraphics g, final List<CCTriangle2d> theTriangles, final int theSubdivisions) {
+		CCMath.randomSeed(0);
 		_myGraphics = g;
 		
 		_mySubdevisions = theSubdivisions;
@@ -139,6 +157,8 @@ public class CCMosaicTriangleMesh{
 			CCIOUtil.classPath(this, "triangles_fragment.glsl")
 		);
 		_myGLSLShader.load();
+		
+		_myRandomBlendTexture = new CCTexture2D(CCTextureIO.newTextureData(CCIOUtil.classPath(this, "randommask.png")));
 	}
 	
 	public void modulationTexture(CCTexture2D theTexture){
@@ -147,10 +167,12 @@ public class CCMosaicTriangleMesh{
 	
 	public void texture0(CCTexture2D theTexture) {
 		_myTexture0 = theTexture;
+		_myTexture0.wrap(CCTextureWrap.MIRRORED_REPEAT);
 	}
 	
 	public void texture1(CCTexture2D theTexture) {
 		_myTexture1 = theTexture;
+		_myTexture1.wrap(CCTextureWrap.MIRRORED_REPEAT);
 	}
 	
 	private int _myIndex = 0;
@@ -269,6 +291,10 @@ public class CCMosaicTriangleMesh{
 		_myTextureSize.set(theWidth, theHeight);
 	}
 	
+	public void update(float theDeltaTime){
+		_mySineOffset += sineSpeed * theDeltaTime;
+	}
+	
 	public void draw(CCGraphics g) {
 		
 		g.texture(0, _myTargetsBuffer.attachment(0));
@@ -276,9 +302,10 @@ public class CCMosaicTriangleMesh{
 		g.texture(2, _myTargetsBuffer.attachment(2));
 		g.texture(3, _myTexture0);
 		g.texture(4, _myTexture1);
+		g.texture(5, _myRandomBlendTexture);
 		
 		if(_myModulationTexture != null)g.texture(6, _myModulationTexture);
-		
+		_myGLSLShader.checkUpdates();
 		_myGLSLShader.start();
 		_myGLSLShader.uniform2f("textureSize", _myTextureSize);
 		_myGLSLShader.uniform1i("textureCoordsTexture", 0);
@@ -289,6 +316,10 @@ public class CCMosaicTriangleMesh{
 		_myGLSLShader.uniform1i("blendTexture", 5);
 		_myGLSLShader.uniform1i("modSampler", 6);
 		_myGLSLShader.uniform1f("textureRandom", _cTextureRandom);
+		_myGLSLShader.uniform1f("zoneRandom", _cZoneRandom);
+		_myGLSLShader.uniform1f("randomSineBlend", randomSineBlend);
+		_myGLSLShader.uniform1f("sineScale", sineScale);
+		_myGLSLShader.uniform1f("sineOffset", _mySineOffset);
 		_myGLSLShader.uniform1f("textureRandomAdd", _cTextureRandomAdd);
 		_myGLSLShader.uniform1f("positionRandom", _cPositionRandom);
 		_myGLSLShader.uniform1f("useTextureRandom", _cUseTextureRandom ? 1 : 0);

@@ -12,8 +12,8 @@ void main(){
 	
 	//vec4 color0 = texture2DLod(textureSampler0, gl_TexCoord[0].st,4.0);
 	//vec4 color1 = texture2DLod(textureSampler1, gl_TexCoord[0].st,4.0);
-	vec4 color0 = texture2D(textureSampler0, gl_TexCoord[0].st);
-	vec4 color1 = texture2D(textureSampler1, gl_TexCoord[0].st);
+	vec4 color0 = vec4(0.0,0.0,0.0,1.0);//texture2D(textureSampler0, gl_TexCoord[0].st);
+	vec4 color1 = vec4(1.0,1.0,1.0,1.0);//texture2D(textureSampler1, gl_TexCoord[0].st);
 	vec4 color = mix(color0, color1, gl_Color.a);
 	
 	vec4 color2 = texture2D(modSampler, gl_TexCoord[1].st);
