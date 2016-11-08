@@ -39,7 +39,7 @@ import cc.creativecomputing.graphics.texture.CCPixelType;
 import cc.creativecomputing.graphics.texture.CCTextureUtil;
 import cc.creativecomputing.math.CCMath;
 
-import com.sun.awt.AWTUtilities;
+//import com.sun.awt.AWTUtilities;
 
 /**
  * @author christianriekoff
@@ -79,7 +79,7 @@ public class CCScreenCaptureData extends CCVideoData {
                         addMouseListener(this);
                         addMouseMotionListener(this);
                         
-                        AWTUtilities.setWindowOpaque(this, false);
+//                        AWTUtilities.setWindowOpaque(this, false);
                 }
                 
                 public void isActive(boolean theIsActive) {
