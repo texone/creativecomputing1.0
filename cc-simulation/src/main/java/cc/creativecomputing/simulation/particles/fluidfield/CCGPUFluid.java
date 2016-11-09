@@ -78,12 +78,16 @@ public class CCGPUFluid {
 		_myOffBoundaryRect = new CCAABoundingRectangle(1, 1, _myWidth - 1, _myHeight - 1);
 		
 		_myVelocityBuffer = new CCShaderBuffer(_myWidth, _myHeight);
+		_myVelocityBuffer.clear();
 		_myTmpVelocityBuffer = new CCShaderBuffer(_myWidth, _myHeight);
+		_myTmpVelocityBuffer.clear();
 		
 		_myColorTexture = new CCShaderBuffer(_myWidth, _myHeight);
 		_myColorTexture.attachment(0).textureFilter(CCTextureFilter.LINEAR);
+		_myColorTexture.clear();
 		_myTmpColorTexture = new CCShaderBuffer(_myWidth, _myHeight);
 		_myTmpColorTexture.attachment(0).textureFilter(CCTextureFilter.LINEAR);
+		_myTmpColorTexture.clear();
 		
 		_myBoundaryShader = new CCGPUFluidBoundaryShader(g);
 //		_myBoundaryTexture = new CCShaderBuffer(32, 3,_myWidth,_myHeight);
@@ -118,7 +122,9 @@ public class CCGPUFluid {
 		_mySubtractGradientShader.halfRdx(0.5f);
 		
 		_myPressureBuffer = new CCShaderBuffer(32, 3,_myWidth,_myHeight);
+		_myPressureBuffer.clear();
 		_myTmpPressureBuffer = new CCShaderBuffer(32, 3,_myWidth,_myHeight);
+		_myTmpPressureBuffer.clear();
 	}
 	
 	public void colorRadius(final float theColorRadius) {
