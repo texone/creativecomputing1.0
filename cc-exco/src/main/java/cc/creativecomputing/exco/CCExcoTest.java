@@ -12,7 +12,7 @@ public class CCExcoTest {
 	private CCExcoNotificationService _myNotificationService;
 
 	public CCExcoTest() {
-		_myWebservice = new CCExcoWebService("https://backend.it-exhibits.artcom.de/");
+		_myWebservice = new CCExcoWebService("https://backend.it-exhibits.artcom.de/", "admin", "ite2015!x");
 		
 		_myNotificationService = new CCExcoNotificationService(
 			"https://backend.it-exhibits.artcom.de/notification-service/", 
@@ -63,7 +63,7 @@ public class CCExcoTest {
 	public static void main(String[] args) {
 		
 			CCExcoWebService _myConnection = new CCExcoWebService(
-				"https://backend.it-exhibits.artcom.de/exco-web/"
+				"http://backend.it-exhibits.artcom.de/exco-web/", "admin", "ite2015!x"
 			);
 		
 			CCExcoNode myExhibit = _myConnection.searchExhibitById("welcome_wall");

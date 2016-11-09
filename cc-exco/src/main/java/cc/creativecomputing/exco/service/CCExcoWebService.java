@@ -27,9 +27,10 @@ public class CCExcoWebService extends CCExcoService {
 	
 	private String _myToken;
 	
-	public CCExcoWebService(String theDataUrl){
+	public CCExcoWebService(String theDataUrl, String theUser, String thePassword){
 		super(theDataUrl);
-		_myToken = getToken("admin", "test");
+		System.out.println("YO");
+		_myToken = getToken(theUser, thePassword);
 	}
 	
 	private static final String EXCO_WEB_SESSION = "exco-web-session";
@@ -40,7 +41,7 @@ public class CCExcoWebService extends CCExcoService {
 			byte[] myJsonBytes = new String(
 				"{" +
 					"\"id\":\""+theID+"\"," +
-					"\"authentication_string\":\""+thePassword+"\"" +
+					"\"password\":\""+thePassword+"\"" +
 				"}"
 			).getBytes(StandardCharsets.UTF_8);
 		
@@ -52,7 +53,7 @@ public class CCExcoWebService extends CCExcoService {
 			myConnection.setRequestProperty("Content-Length", Integer.toString(myJsonBytes.length));
 			myConnection.setDoOutput(true);
 			myConnection.getOutputStream().write(myJsonBytes);
-			
+			System.out.println(_myServiceUrl + "user/login.json");
 			String myCookie = myConnection.getHeaderField("Set-Cookie");
 			if(myCookie == null){
 				throw new RuntimeException("no cookie defined");
