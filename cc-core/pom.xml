@@ -305,11 +305,7 @@
       <classifier>natives-${NATIVE_LIB_CLASSIFIER}</classifier>
     </dependency>
    -->
-    <dependency>
-      <groupId>ci.newdawn</groupId>
-      <artifactId>jinput</artifactId>
-      <version>1.0</version>
-    </dependency>
+   
   <!-- todo remove api.jar from zip and rename to natives.ccc..-->
     <dependency>
       <groupId>org.jogamp.jogl</groupId>
